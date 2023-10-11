@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="testcases.PurchaseOrder" skipped="0" tests="1" time="0.06" timestamp="2023-10-10 11:26:07"><testcase classname="testcases.PurchaseOrder" name="Custer Login to Application"><failure message="Undefined default URL for page object PageObject" type="java.lang.AssertionError">Undefined default URL for page object PageObject</failure><system-err>Undefined default URL for page object PageObject&#13;
+testcases.PurchaseOrder.userLoginToApp(PurchaseOrder.java:46)&#13;
+</system-err></testcase></testsuite>

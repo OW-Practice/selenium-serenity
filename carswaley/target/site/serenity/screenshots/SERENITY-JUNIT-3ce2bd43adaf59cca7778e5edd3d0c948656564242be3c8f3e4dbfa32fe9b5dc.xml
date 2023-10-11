@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="testcases.DemoBlaze_flow" skipped="1" tests="1" time="0.04" timestamp="2023-10-10 11:26:08"><testcase classname="testcases.DemoBlaze_flow" name="Demo Blaze Application"><failure message="Undefined default URL for page object PageObject" type="java.lang.AssertionError">Undefined default URL for page object PageObject</failure><system-err>Undefined default URL for page object PageObject&#13;
+testcases.DemoBlaze_flow.userLoginToApp(DemoBlaze_flow.java:66)&#13;
+</system-err></testcase></testsuite>
