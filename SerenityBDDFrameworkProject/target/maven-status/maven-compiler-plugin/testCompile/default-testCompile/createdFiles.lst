@@ -1,0 +1,6 @@
+testCasesDemoBlaze\LoginDemoblaze.class
+locatorsDemoBlaze\DemoBlazeLocators.class
+testCasesDemoBlaze\AddingPhoneProductToCart.class
+testSuiteDemoBlaze\StepsClass.class
+testCasesDemoBlaze\ReusableMethodsOrangeHRM.class
+testSuiteDemoBlaze\StepClass.class
