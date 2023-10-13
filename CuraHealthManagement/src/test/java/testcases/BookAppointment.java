@@ -30,7 +30,7 @@ public class BookAppointment extends PageObject{
 	private String facilityOption;
 	String commentRandom;
 	
-	@Managed()
+	@Managed(driver="chrome")
 	WebDriver driver;
 	
 	@Steps

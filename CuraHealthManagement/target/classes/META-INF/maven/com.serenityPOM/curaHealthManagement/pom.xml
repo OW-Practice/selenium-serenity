@@ -29,17 +29,23 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-            <groupId>net.serenity-bdd</groupId>
-            <artifactId>serenity-screenplay</artifactId>
-            <version>${serenity.version}</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>net.serenity-bdd</groupId>
-            <artifactId>serenity-screenplay-webdriver</artifactId>
-            <version>${serenity.version}</version>
-            <scope>test</scope>
-        </dependency>
+			<groupId>net.serenity-bdd</groupId>
+			<artifactId>serenity-screenplay</artifactId>
+			<version>${serenity.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>net.serenity-bdd</groupId>
+			<artifactId>serenity-screenplay-webdriver</artifactId>
+			<version>${serenity.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>net.serenity-bdd</groupId>
+			<artifactId>serenity-ensure</artifactId>
+			<version>${serenity.version}</version>
+			<scope>test</scope>
+		</dependency>
 
 		<!-- POI JARS STARTS -->
 
@@ -100,10 +106,10 @@
 				<configuration>
 					<includes>
 
-						
+
 						<!--<include>**/testcases/DemoBlazeUserFlow.java</include>-->
-					<!--<include>**/testcases/**/*.java</include>-->
-			<include>**/testcases/*.java</include>
+						<!--<include>**/testcases/**/*.java</include>-->
+						<include>**/testcases/*.java</include>
 
 					</includes>
 
