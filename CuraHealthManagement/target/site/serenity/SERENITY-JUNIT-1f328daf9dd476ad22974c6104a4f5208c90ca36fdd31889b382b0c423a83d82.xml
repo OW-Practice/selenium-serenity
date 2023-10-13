@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="testcases.PatientLoginscreeplay" skipped="0" tests="1" time="8.86" timestamp="2023-10-13 07:21:41"><testcase classname="testcases.PatientLoginscreeplay" name="User book appointment"><failure message="&#10;Expecting a value that is equal to: &lt;&quot;Appointment Confirmation&quot;&gt;&#10;But got...........................: &lt;&quot;CURA Healthcare Service&quot;&gt;" type="java.lang.AssertionError">
+Expecting a value that is equal to: &lt;"Appointment Confirmation"&gt;
+But got...........................: &lt;"CURA Healthcare Service"&gt;</failure><system-err>
+Expecting a value that is equal to: &lt;"Appointment Confirmation"&gt;
+But got...........................: &lt;"CURA Healthcare Service"&gt;&#13;
+testcases.PatientLoginscreeplay.verifyAppointment(PatientLoginscreeplay.java:73)&#13;
+</system-err></testcase></testsuite>
