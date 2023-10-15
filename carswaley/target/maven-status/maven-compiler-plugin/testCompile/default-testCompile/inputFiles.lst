@@ -1,6 +1,4 @@
-D:\eclipse\carswaley\src\test\java\smoke_suite\SmokeTestSuite.java
-D:\eclipse\carswaley\src\test\java\RandomString\java\RandomCredentials.java
-D:\eclipse\carswaley\src\test\java\testcases\DemoBlaze_Registration.java
-D:\eclipse\carswaley\src\test\java\testcases\LoginTestCase.java
-D:\eclipse\carswaley\src\test\java\testcases\DemoBlaze_flow.java
-D:\eclipse\carswaley\src\test\java\testcases\PurchaseOrder.java
+C:\Users\LENOVO\Downloads\carswaley\src\test\java\RandomString\java\DemoBlazeLocators.java
+C:\Users\LENOVO\Downloads\carswaley\src\test\java\RandomString\java\DemoBlazeLogin.java
+C:\Users\LENOVO\Downloads\carswaley\src\test\java\RandomString\java\AddingPhoneProductToCart.java
+C:\Users\LENOVO\Downloads\carswaley\src\test\java\RandomString\java\Utilities.java
