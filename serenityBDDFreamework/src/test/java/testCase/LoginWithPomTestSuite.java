@@ -17,7 +17,7 @@ import testDataDriven.TestData;
 
 public class LoginWithPomTestSuite extends PageObject{
 
-	@Managed(driver="chrome")
+	@Managed
 	WebDriver driver;
 	@Steps
 	LoginPageSteps login;
@@ -30,7 +30,7 @@ public class LoginWithPomTestSuite extends PageObject{
 		open();
 		login.verifyLoginPageIsDisplayed();
 		login.enterUsername(data.username);
-		login.clickProceedButton();
+		//login.clickProceedButton();
 		login.verifyPasswordFiledDisplayed();
 		login.enterPassword(data.password);
 		login.clickonSubmitButton();

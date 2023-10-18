@@ -10,6 +10,9 @@ public class LoginPageSteps {
 	
 	Login loginPage;
 	
+	public void openUrl() {
+		loginPage.Url();
+	}
 	
 	@Step("checking the project title in login page ")
 	public void verifyLoginPageIsDisplayed() {

@@ -43,6 +43,16 @@ public class LoginWithExcelTestSuite extends PageObject {
 		excelData[0][1]=excelSheet.getCellData(sheetName, 1, 2);
 		excelData[1][0]=excelSheet.getCellData(sheetName, 0, 3);
 		excelData[1][1]=excelSheet.getCellData(sheetName, 1, 3);
+		//excelData[2][0]=excelSheet.getCellData(sheetName, 0, 4);
+		//excelData[2][1]=excelSheet.getCellData(sheetName, 1, 4);
+		//excelData[3][0]=excelSheet.getCellData(sheetName, 0, 5);
+		//excelData[3][1]=excelSheet.getCellData(sheetName, 1, 5);
+		//excelData[4][0]=excelSheet.getCellData(sheetName, 0, 6);
+		//excelData[4][1]=excelSheet.getCellData(sheetName, 1, 6);
+
+
+
+
 		return Arrays.asList(excelData);
 
 }
@@ -59,7 +69,7 @@ public class LoginWithExcelTestSuite extends PageObject {
 		open();
 		login.verifyLoginPageIsDisplayed();
 		login.enterUsername(username);
-		login.clickProceedButton();
+		//login.clickProceedButton();
 		login.verifyPasswordFiledDisplayed();
 		login.enterPassword(password);
 		login.clickonSubmitButton();

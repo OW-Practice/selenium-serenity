@@ -13,7 +13,7 @@ import net.thucydides.core.annotations.Managed;
 @RunWith(SerenityParameterizedRunner.class)
 public class LoginTestSuite extends PageObject{
 	
-	@Managed(driver = "firefox")
+	@Managed(driver = "edge")
 	WebDriver driver;
 	
 	@Test

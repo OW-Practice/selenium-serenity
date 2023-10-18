@@ -23,6 +23,12 @@
 			<version>${serenity.version}</version>
 			<scope>test</scope>
 		</dependency>
+	<dependency>
+    <groupId>net.serenity-bdd</groupId>
+    <artifactId>serenity-ensure</artifactId>
+    <version>${serenity.version}</version>
+    <scope>test</scope>
+    </dependency>  <!-- this dependency for assertions using ensure -->
 		<dependency>
     <groupId>net.serenity-bdd</groupId>
     <artifactId>serenity-screenplay-webdriver</artifactId>
@@ -87,11 +93,12 @@
     <version>2.1.3</version>
 </dependency>
 
-	<dependency>
+  <!-- <dependency>
 		<groupId>net.serenitybdd.starter</groupId>
 		<artifactId>serenity-cucumber4-smoketests</artifactId>
-		<version>1.0.0-SNAPSHOT</version>
-	</dependency>
+		<version>1.0.0-SNAPSHOT</version>  
+	</dependency> -->
+	
 </dependencies>
 
 	<build>
@@ -111,7 +118,7 @@
 					<includes>
 						 <include>**/Testcases/**/*.java</include>
                         <include>**/Testcases/*.java</include>
-                        <include>**/LoginWithPomTestSuite.java</include>
+                        <include>**/ScreenplayLoginTest.java</include>
                         <include>**/When*.java</include>
 					</includes>
 					<parallel>classes</parallel>
