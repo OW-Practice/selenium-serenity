@@ -1,0 +1,16 @@
+webelements\HandlingActionEvents.class
+utilities\TestContext.class
+pages\LoginPage.class
+newtestcases\InspifyLoginPageTest.class
+steps\InspifySteps.class
+utilities\TestDataSingleton.class
+newtestcases\StartLiveSessionTest.class
+utilities\TestDataLoader.class
+base\BasePage.class
+testcases\LoginTest.class
+newtestcases\SessionCreationTest.class
+pages\InspifyPage.class
+utilities\SerenityTestDataLoader$TestDataLoader.class
+testcases\InspifyPrcaticeTest.class
+utilities\SerenityTestDataLoader.class
+testcases\InspifyLoginTest.class
