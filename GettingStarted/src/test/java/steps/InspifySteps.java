@@ -3,7 +3,6 @@ package steps;
 import net.thucydides.core.annotations.Step;
 import pages.InspifyPage;
 import pages.LoginPage;
-import pages.ScreenPlay;
 
 public class InspifySteps {
 	LoginPage login;
@@ -26,7 +25,7 @@ public class InspifySteps {
 	}
 
 	@Step
-	public void login(String username, String password) {
+	public void login(String username, String password) throws InterruptedException {
 		login.login(username, password);
 	}
 
@@ -41,7 +40,7 @@ public class InspifySteps {
 	}
 
 	@Step
-	public void logout() {
+	public void logout() throws InterruptedException {
 		inspify.logout();
 	}
 

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="newtestcases.ScreenPlayTestCase" skipped="0" tests="1" time="0.06" timestamp="2023-10-13 02:50:48"><testcase classname="newtestcases.ScreenPlayTestCase" name="Launch URL using screenplay"><error message="Cannot invoke &quot;pages.ScreenPlay.launchURLSP()&quot; because &quot;this.sp&quot; is null" type="java.lang.NullPointerException">Cannot invoke "pages.ScreenPlay.launchURLSP()" because "this.sp" is null</error><system-err>Cannot invoke "pages.ScreenPlay.launchURLSP()" because "this.sp" is null&#13;
-newtestcases.ScreenPlayTestCase.launchURLUsingScreenplay(ScreenPlayTestCase.java:23)&#13;
-org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98)&#13;
-org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#13;
-org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#13;
-org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)&#13;
-org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
-org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
-</system-err></testcase></testsuite>

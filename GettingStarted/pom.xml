@@ -103,9 +103,9 @@
 						<include>**/newtestcases/**/*.java</include>
 						<include>**/newtestcases/*.java</include>
 					</includes>
-					<parallel>classes</parallel>
+					<!--parallel>classes</parallel>
 					<threadCount>2</threadCount>
-					<forkCount>2C</forkCount>
+					<forkCount>2C</forkCount-->
 				</configuration>
 				<executions>
 					<execution>

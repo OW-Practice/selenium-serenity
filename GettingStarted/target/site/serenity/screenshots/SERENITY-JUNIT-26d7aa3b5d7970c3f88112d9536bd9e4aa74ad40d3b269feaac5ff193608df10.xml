@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="newtestcases.ScreenPlayPOM" skipped="0" tests="1" time="10.0" timestamp="2023-10-18 07:42:04"><testcase classname="newtestcases.ScreenPlayPOM" name="Handle input forms"><failure message="&#10;Expecting a value that contains: &lt;[Your Exp Title]&gt;&#10;But got........................: &lt;&quot;Hi, this is Taylor Watsica&quot;&gt;" type="java.lang.AssertionError">
+Expecting a value that contains: &lt;[Your Exp Title]&gt;
+But got........................: &lt;"Hi, this is Taylor Watsica"&gt;</failure><system-err>
+Expecting a value that contains: &lt;[Your Exp Title]&gt;
+But got........................: &lt;"Hi, this is Taylor Watsica"&gt;&#13;
+newtestcases.ScreenPlayPOM.handleInputForms(ScreenPlayPOM.java:45)&#13;
+org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+</system-err></testcase></testsuite>

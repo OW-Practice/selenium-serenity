@@ -4,11 +4,13 @@ import java.io.File;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
@@ -86,14 +88,14 @@ public class BasePage extends PageObject {
 
 	}
 
-	public void click(String locator) {
-
-		waitFor(getElement(locator)).click();
-	}
-
 	public void type(String locator, String value) {
 
 		waitFor(getElement(locator)).sendKeys(value);
+	}
+	
+	public void click(String locator) {
+
+		waitFor(getElement(locator)).click();
 	}
 
 	public String getText(String locator) {
@@ -128,4 +130,16 @@ public class BasePage extends PageObject {
 		String text = waitFor(getElement(locator)).getText();
 		return text;
 	}
+
+    public void scrollDown() {
+        JavascriptExecutor js = (JavascriptExecutor) getDriver();
+        js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
+    }
+    
+//    public void click(String locator) {
+//    	   By byLocator = By.cssSelector(locator);
+//           WebDriverWait wait = new WebDriverWait(getDriver(), 10);
+//           WebElement element = wait.until(ExpectedConditions.elementToBeClickable(byLocator));
+//           element.click();
+//    }
 }
