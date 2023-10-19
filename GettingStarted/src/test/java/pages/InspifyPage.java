@@ -44,7 +44,9 @@ public class InspifyPage extends BasePage {
 	String SBSubTitleText = "css=.subtitle";
 
 	public void goToProfile() {
+		elementPresence(Menu);
 		click(Menu);
+		elementPresence(ProfileMenu);
 		click(ProfileMenu);
 	}
 
@@ -52,8 +54,10 @@ public class InspifyPage extends BasePage {
 		elementPresence(AvatarSymbol);
 	}
 
-	public void logout() {
+	public void logout() throws InterruptedException {
+		Thread.sleep(5000);
 		click(Menu);
+		scrollDown();
 		click(LogoutMenu);
 	}
 
@@ -68,6 +72,7 @@ public class InspifyPage extends BasePage {
 		Thread.sleep(5000);
 		elementPresence(PopupTitle);
 		Thread.sleep(5000);
+		scrollDown();
 		click(StartLiveSessionButton2);
 		Thread.sleep(5000);
 	}

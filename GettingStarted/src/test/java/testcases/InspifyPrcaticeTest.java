@@ -26,7 +26,7 @@ public class InspifyPrcaticeTest {
 	@Title("Operations on inspify site")
 	@Test
 
-	public void verifyIsUserLoggedInSuccessfully() {
+	public void verifyIsUserLoggedInSuccessfully() throws InterruptedException {
 		inspify.launchURL();
 		inspify.login(username, password);
 		inspify.goToProfile();
@@ -34,7 +34,7 @@ public class InspifyPrcaticeTest {
 	}
 
 	@Test
-	public void verifyIsUserLoggedOutSuccessFully() {
+	public void verifyIsUserLoggedOutSuccessFully() throws InterruptedException {
 		inspify.launchURL();
 		inspify.login(username, password);
 		inspify.goToProfile();

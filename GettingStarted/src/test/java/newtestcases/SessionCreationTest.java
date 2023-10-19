@@ -37,7 +37,7 @@ public class SessionCreationTest {
 
 	@Title("Login to inspify site")
 	@Before
-	public void login() {
+	public void login() throws InterruptedException {
 		username = environmentVariables.getProperty("username");
 		password = environmentVariables.getProperty("password");
 		sessionTitle = faker.company().name();
@@ -60,7 +60,7 @@ public class SessionCreationTest {
 
 	@Title("Logout from inspify")
 	@After
-	public void logout() {
+	public void logout() throws InterruptedException {
 		inspify.logout();
 		inspify.verifyLogout();
 	}
