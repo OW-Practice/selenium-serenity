@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: testcases.DemoBlaze_flow
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.042 s <<< FAILURE! - in testcases.DemoBlaze_flow
+userLoginToApp[0](testcases.DemoBlaze_flow)  Time elapsed: 0.042 s  <<< FAILURE!
+java.lang.AssertionError: Undefined default URL for page object PageObject
+	at testcases.DemoBlaze_flow.userLoginToApp(DemoBlaze_flow.java:66)
+

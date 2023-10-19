@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="testcases.SerenityTestCase" skipped="0" tests="1" time="3.34" timestamp="2023-10-18 08:04:19"><testcase classname="testcases.SerenityTestCase" name="actor login to the demo blaze application in screenplay"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+testcases.SerenityTestCase.demoBlazeApplicatrion(SerenityTestCase.java:53)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+</system-err></testcase></testsuite>

@@ -1,0 +1,235 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="37ded88cf3cf144c0a5a69cd10a0dfcb646e4c7c521cf8cd9d4949a9504450dd.html">Serenity Test Case</a></span>
+                > <span class="truncate-60"><a
+                    href="7b5e012d2ad39f470462257e739b2563ad9bf3780a4edf87370564381bf5c0c6.html">actor login to the demo blaze application in screenplay </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-10-2023 16:54</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Serenity Test Case</span>
+                                    <span class="badge tag-badge" style="">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">actor login to the demo blaze application in screenplay
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="65f3ec0dd66de79c6b5cdbac8c67727acd8638269730e17d2e62bcba00f5c386.png" title=" DemoBlaze opens the https://www.demoblaze.com/" width="1366"/>
+                <img src="ab71f70a1c21d5ff71798d763896836a37abdbc7365ca8c10d0f1edae82985f6.png" title=" DemoBlaze clicks on homepageLoginButton" width="1366"/>
+                <img src="e21643b4da0a6c3d4008c49cc6546d964ba298753ae5cc903236d376b7a35ad4.png" title=" DemoBlaze enters 'harika3090@gmail.com' into userNameInputField" width="1366"/>
+                <img src="3b97b46c1b0a9ddbc2afd81e4b9ca733f903dd50a45f235dbfb587461f89cafb.png" title=" DemoBlaze enters 'harika3010' into passwordInputField" width="1366"/>
+                <img src="05a7bf99f815a82109ae8e64ac9ed532e4eacbb5b4b3a94b21a97e68f0b9911c.png" title=" DemoBlaze clicks on loginButtonAfterEnteringCredentials" width="1366"/>
+                <img src="c83dd1d8a20856ac5a78f6fb3b7b7db4f5212f7a6c3d2a55860ccda8361f0d00.png" title=" DemoBlaze should see clickHomeSectionOnFooter that is displayed" width="1366"/>
+                <img src="8542e4021429707cc828ecc308a809cae3bfaf94974f827afcafcfe4f3a4c4b1.png" title=" DemoBlaze should see clickHomeSectionOnFooter that is displayed (completed)" width="1366"/>
+                <img src="2e3572d2f8a83be383e117f13b90d480a7d4545ef54678234b968ae65a8b0a01.png" title=" DemoBlaze clicks on clickHomeSectionOnFooter" width="1366"/>
+                <img src="65f3ec0dd66de79c6b5cdbac8c67727acd8638269730e17d2e62bcba00f5c386.png" title=" DemoBlaze clicks on clickHomeSectionOnFooter (completed)" width="1366"/>
+                <img src="180a53db64a69513dbf8fcc0de3af5091ac29de94d3e0e2038723a53f5478fcd.png" title=" DemoBlaze should see clickonlaptopsSection that is displayed" width="1366"/>
+                <img src="180a53db64a69513dbf8fcc0de3af5091ac29de94d3e0e2038723a53f5478fcd.png" title=" DemoBlaze should see clickonlaptopsSection that is displayed (completed)" width="1366"/>
+                <img src="180a53db64a69513dbf8fcc0de3af5091ac29de94d3e0e2038723a53f5478fcd.png" title=" DemoBlaze clicks on clickonlaptopsSection" width="1366"/>
+                <img src="180a53db64a69513dbf8fcc0de3af5091ac29de94d3e0e2038723a53f5478fcd.png" title=" DemoBlaze should see click_on_selected_laptop_name that is displayed" width="1366"/>
+                <img src="e21f203a784a5c35c5ecf0103d9fb22014aa248b2dcf496a24c8d05925506d54.png" title=" DemoBlaze clicks on click_on_selected_laptop_name" width="1366"/>
+                <img src="3ec9932dea8c2245d1db28b8379b03c6bf6a701484341ac3d62e157f3fd3297c.png" title=" DemoBlaze should see click_add_to_cart_on_selected_laptop that is displayed" width="1366"/>
+                <img src="d728ea3d25537fec70dafbf1f562bd976346c8be91aea9eefe62710750252cd9.png" title=" DemoBlaze clicks on click_add_to_cart_on_selected_laptop" width="1366"/>
+                <img src="bca7cac3b962b80ac1d294e1acf773fa0dcd9d4646d3a910308977f4f5e20bcd.png" title=" DemoBlaze should see click_on_cart_section_on_footer that is displayed" width="1366"/>
+                <img src="ffe4a986ce14d12901969212362fc158a99a8c8346cff556f431f620fba2021f.png" title=" DemoBlaze clicks on click_on_cart_section_on_footer" width="1366"/>
+                <img src="ffe4a986ce14d12901969212362fc158a99a8c8346cff556f431f620fba2021f.png" title=" DemoBlaze should see click_on_place_order that is displayed" width="1366"/>
+                <img src="129672d8e983c882aad0724bf6c55bcea60288ca89ca80e9faf1930b1db86cf6.png" title=" DemoBlaze clicks on click_on_place_order" width="1366"/>
+                <img src="3953e8e4803815bf99360cd9613c32582564cf5a3a14f4887e3d97520e041dac.png" title=" DemoBlaze should see place_order_form_name_input_field that is displayed" width="1366"/>
+                <img src="0583ada62174a1b6aea7565e7d1e9ee894696210c4fbebf0c83097325020e83b.png" title=" DemoBlaze enters '3010' into place_order_form_name_input_field" width="1366"/>
+                <img src="0583ada62174a1b6aea7565e7d1e9ee894696210c4fbebf0c83097325020e83b.png" title=" DemoBlaze should see place_order_form_country_input_field that is displayed" width="1366"/>
+                <img src="97da387fa9d3226f6986b0915a009d3b3642631220b4fd9aa16255f8e630a7ae.png" title=" DemoBlaze enters 'INDIA' into place_order_form_country_input_field" width="1366"/>
+                <img src="97da387fa9d3226f6986b0915a009d3b3642631220b4fd9aa16255f8e630a7ae.png" title=" DemoBlaze should see place_order_form_city_input_field that is displayed" width="1366"/>
+                <img src="151fc6c134a9f658f0cc84cd5c65d27e28203dfa8a5da2658deb1cd2854a4199.png" title=" DemoBlaze enters 'HYD' into place_order_form_city_input_field" width="1366"/>
+                <img src="b28dc7586fa3be7f09b24213b780b60ae3d5704118b101e9e28aab1584e858e9.png" title=" DemoBlaze should see place_order_form_year_input_field that is displayed" width="1366"/>
+                <img src="35c3a77bda218bc5b30a4e173f5ac4f1ecac3830c5b076c621079cc98c4792d1.png" title=" DemoBlaze enters '1234 5867 3645 2675' into place_order_form_year_input_field" width="1366"/>
+                <img src="35c3a77bda218bc5b30a4e173f5ac4f1ecac3830c5b076c621079cc98c4792d1.png" title=" DemoBlaze should see place_order_form_month_input_field that is displayed" width="1366"/>
+                <img src="b49578d3425b38829ad51770676ebcd80c40ae98a73e08ce2da1cd175fe4cf91.png" title=" DemoBlaze enters 'OCT' into place_order_form_month_input_field" width="1366"/>
+                <img src="b49578d3425b38829ad51770676ebcd80c40ae98a73e08ce2da1cd175fe4cf91.png" title=" DemoBlaze should see place_order_form_creditcard_input_field that is displayed" width="1366"/>
+                <img src="1b819dc572caab29c64c2d95319556ffcea2ec22dbff936a5ca51c7fed9c8893.png" title=" DemoBlaze enters '2023' into place_order_form_creditcard_input_field" width="1366"/>
+                <img src="1b819dc572caab29c64c2d95319556ffcea2ec22dbff936a5ca51c7fed9c8893.png" title=" DemoBlaze should see place_order_form_click_on_purchase_button that is displayed" width="1366"/>
+                <img src="e1c411bc783392b28c323252f9fb9fffbb6e4c92ddb4bc2613c4d2605db8bf58.png" title=" DemoBlaze clicks on place_order_form_click_on_purchase_button" width="1366"/>
+                <img src="ffe4a986ce14d12901969212362fc158a99a8c8346cff556f431f620fba2021f.png" title=" DemoBlaze clicks on click_on_logout" width="1366"/>
+                <img src="65f3ec0dd66de79c6b5cdbac8c67727acd8638269730e17d2e62bcba00f5c386.png" title=" DemoBlaze clicks on click_on_logout (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.81</span>
+</div>
+</body>
+</html>
