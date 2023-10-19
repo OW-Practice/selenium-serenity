@@ -71,10 +71,10 @@ public class LoginTestCase extends PageObject {
 		//user.attemptsTo(waitFor(DemoBlazeLocaters.txtLogin));
 		// user.wait();
 		//user.attemptsTo(isElementVisible(DemoBlazeLocaters.txtLogin));
-		Click.on(DemoBlazeLocaters.txtLogin);
+		Click.on(DemoBlazeLocaters.loginButton);
 		Enter.theValue(username).into(DemoBlazeLocaters.lgnUsername);
 		Enter.theValue(password).into(DemoBlazeLocaters.lgnPassword);
-		Click.on(DemoBlazeLocaters.btnLogin);
+		Click.on(DemoBlazeLocaters.buttonLogin);
 
 		// user.can(BrowseTheWeb.with(ChromeDriver.driver()));
 

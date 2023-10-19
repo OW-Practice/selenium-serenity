@@ -1,0 +1,266 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="37ded88cf3cf144c0a5a69cd10a0dfcb646e4c7c521cf8cd9d4949a9504450dd.html">Serenity Test Case</a></span>
+                > <span class="truncate-60"><a
+                    href="ece803fce3dc6b3ea4bf3f8d4f815be845e2eeb74b38117444513e0af3061a78.html">Db login </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 19-10-2023 19:00</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Serenity Test Case</span>
+                                    <span class="badge tag-badge" style="">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Db login
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">User opens the https://www.demoblaze.com/<br>User serenitytask</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="86d49c5ee4a44efe61133b24a3a9ccde6def38e803a98a9418ba2e7f49b9d156.png" title=" Db login  -  Username = abhi1432840@yopmail.com and  Password = qwerty@123 should display " width="1366"/>
+                <img src="86d49c5ee4a44efe61133b24a3a9ccde6def38e803a98a9418ba2e7f49b9d156.png" title=" User opens the https://www.demoblaze.com/" width="1366"/>
+                <img src="8b869694af26b5251473abba8e4c4f83b3e3eff779ec253ac6df0429e3482aa8.png" title=" User serenitytask" width="1366"/>
+                <img src="8b869694af26b5251473abba8e4c4f83b3e3eff779ec253ac6df0429e3482aa8.png" title=" User clicks on homepageLoginButton" width="1366"/>
+                <img src="5549b444b0d76d2a74be7e044f82a0fc73ff61a7abbf3be3adcc46aea26cbeaf.png" title=" User enters 'abhi1432840@yopmail.com' into userNameInputField" width="1366"/>
+                <img src="93ac8c132677e17d19b9f55ae36dd32894b19d9e4bc598328075aaa1433146cd.png" title=" User enters 'abhi1432840@yopmail.com' into userNameInputField (completed)" width="1366"/>
+                <img src="93ac8c132677e17d19b9f55ae36dd32894b19d9e4bc598328075aaa1433146cd.png" title=" User enters 'qwerty@123' into passwordInputField" width="1366"/>
+                <img src="fa48bd25bc3c23073ab5a8601c05fb985504bcfea7d3ddc8ac85205874893d8e.png" title=" User enters 'qwerty@123' into passwordInputField (completed)" width="1366"/>
+                <img src="e7b9f7821388a8d35bcb7ee5b652a70ea1c5aa8088809d1094fe1cdbd173074f.png" title=" User clicks on loginButtonAfterEnteringCredentials" width="1366"/>
+                <img src="5ad0df71cb66f7495c66ed5d332de543f31b6f6575fe641f5faadbc1906d1142.png" title=" User clicks on loginButtonAfterEnteringCredentials (completed)" width="1366"/>
+                <img src="f4036eec99548a08545f7bdfcafb5ed169cd2fabd9be3eaa4a379cd2cb604030.png" title=" User should see clickHomeSectionOnFooter that is displayed" width="1366"/>
+                <img src="f4036eec99548a08545f7bdfcafb5ed169cd2fabd9be3eaa4a379cd2cb604030.png" title=" User should see clickHomeSectionOnFooter that is displayed (completed)" width="1366"/>
+                <img src="2e3572d2f8a83be383e117f13b90d480a7d4545ef54678234b968ae65a8b0a01.png" title=" User clicks on clickHomeSectionOnFooter" width="1366"/>
+                <img src="65f3ec0dd66de79c6b5cdbac8c67727acd8638269730e17d2e62bcba00f5c386.png" title=" User clicks on clickHomeSectionOnFooter (completed)" width="1366"/>
+                <img src="180a53db64a69513dbf8fcc0de3af5091ac29de94d3e0e2038723a53f5478fcd.png" title=" User should see clickonlaptopsSection that is displayed" width="1366"/>
+                <img src="180a53db64a69513dbf8fcc0de3af5091ac29de94d3e0e2038723a53f5478fcd.png" title=" User should see clickonlaptopsSection that is displayed (completed)" width="1366"/>
+                <img src="8b01c9b0025990646aba65608bc5036cadd3053900c63f369628d240a427dda6.png" title=" User clicks on clickonlaptopsSection" width="1366"/>
+                <img src="8b01c9b0025990646aba65608bc5036cadd3053900c63f369628d240a427dda6.png" title=" User clicks on clickonlaptopsSection (completed)" width="1366"/>
+                <img src="5e72cf5002bc8be6628099506ca4b9f25dff88c18404f02dd8d34586da9d16d2.png" title=" User should see click_on_selected_laptop_name that is displayed" width="1366"/>
+                <img src="5e72cf5002bc8be6628099506ca4b9f25dff88c18404f02dd8d34586da9d16d2.png" title=" User should see click_on_selected_laptop_name that is displayed (completed)" width="1366"/>
+                <img src="5e72cf5002bc8be6628099506ca4b9f25dff88c18404f02dd8d34586da9d16d2.png" title=" User clicks on click_on_selected_laptop_name" width="1366"/>
+                <img src="e21f203a784a5c35c5ecf0103d9fb22014aa248b2dcf496a24c8d05925506d54.png" title=" User clicks on click_on_selected_laptop_name (completed)" width="1366"/>
+                <img src="e21f203a784a5c35c5ecf0103d9fb22014aa248b2dcf496a24c8d05925506d54.png" title=" User should see click_add_to_cart_on_selected_laptop that is displayed" width="1366"/>
+                <img src="b5fac7fbc2c849733baffcd367bc986c8a1fab5c15f88ea4e00b766361738115.png" title=" User should see click_add_to_cart_on_selected_laptop that is displayed (completed)" width="1366"/>
+                <img src="b5fac7fbc2c849733baffcd367bc986c8a1fab5c15f88ea4e00b766361738115.png" title=" User clicks on click_add_to_cart_on_selected_laptop" width="1366"/>
+                <img src="4af72fe9f7d0a8867385a7c1c355a25cf1d1a0efe55cf13a2f694be23e29f182.png" title=" User clicks on click_add_to_cart_on_selected_laptop (completed)" width="1366"/>
+                <img src="4af72fe9f7d0a8867385a7c1c355a25cf1d1a0efe55cf13a2f694be23e29f182.png" title=" User should see click_on_cart_section_on_footer that is displayed" width="1366"/>
+                <img src="25954bdcf2dc7d74089c299db7ad065539b857e497292b2fc15d155d36f82ca9.png" title=" User should see click_on_cart_section_on_footer that is displayed (completed)" width="1366"/>
+                <img src="25954bdcf2dc7d74089c299db7ad065539b857e497292b2fc15d155d36f82ca9.png" title=" User clicks on click_on_cart_section_on_footer" width="1366"/>
+                <img src="ffe4a986ce14d12901969212362fc158a99a8c8346cff556f431f620fba2021f.png" title=" User clicks on click_on_cart_section_on_footer (completed)" width="1366"/>
+                <img src="ffe4a986ce14d12901969212362fc158a99a8c8346cff556f431f620fba2021f.png" title=" User should see click_on_place_order that is displayed" width="1366"/>
+                <img src="ffe4a986ce14d12901969212362fc158a99a8c8346cff556f431f620fba2021f.png" title=" User should see click_on_place_order that is displayed (completed)" width="1366"/>
+                <img src="ffe4a986ce14d12901969212362fc158a99a8c8346cff556f431f620fba2021f.png" title=" User clicks on click_on_place_order" width="1366"/>
+                <img src="129672d8e983c882aad0724bf6c55bcea60288ca89ca80e9faf1930b1db86cf6.png" title=" User clicks on click_on_place_order (completed)" width="1366"/>
+                <img src="129672d8e983c882aad0724bf6c55bcea60288ca89ca80e9faf1930b1db86cf6.png" title=" User should see place_order_form_name_input_field that is displayed" width="1366"/>
+                <img src="5db21fdd3bd58a23c8e9a78d7008c5aa337dd47f06e6c66ee719ac83f72e2391.png" title=" User should see place_order_form_name_input_field that is displayed (completed)" width="1366"/>
+                <img src="5db21fdd3bd58a23c8e9a78d7008c5aa337dd47f06e6c66ee719ac83f72e2391.png" title=" User enters '3010' into place_order_form_name_input_field" width="1366"/>
+                <img src="0583ada62174a1b6aea7565e7d1e9ee894696210c4fbebf0c83097325020e83b.png" title=" User enters '3010' into place_order_form_name_input_field (completed)" width="1366"/>
+                <img src="0583ada62174a1b6aea7565e7d1e9ee894696210c4fbebf0c83097325020e83b.png" title=" User should see place_order_form_country_input_field that is displayed" width="1366"/>
+                <img src="0583ada62174a1b6aea7565e7d1e9ee894696210c4fbebf0c83097325020e83b.png" title=" User should see place_order_form_country_input_field that is displayed (completed)" width="1366"/>
+                <img src="0583ada62174a1b6aea7565e7d1e9ee894696210c4fbebf0c83097325020e83b.png" title=" User enters 'INDIA' into place_order_form_country_input_field" width="1366"/>
+                <img src="97da387fa9d3226f6986b0915a009d3b3642631220b4fd9aa16255f8e630a7ae.png" title=" User enters 'INDIA' into place_order_form_country_input_field (completed)" width="1366"/>
+                <img src="97da387fa9d3226f6986b0915a009d3b3642631220b4fd9aa16255f8e630a7ae.png" title=" User should see place_order_form_city_input_field that is displayed" width="1366"/>
+                <img src="97da387fa9d3226f6986b0915a009d3b3642631220b4fd9aa16255f8e630a7ae.png" title=" User should see place_order_form_city_input_field that is displayed (completed)" width="1366"/>
+                <img src="97da387fa9d3226f6986b0915a009d3b3642631220b4fd9aa16255f8e630a7ae.png" title=" User enters 'HYD' into place_order_form_city_input_field" width="1366"/>
+                <img src="a127091bbcec75bf1517ef7fa289eca33f21626b413dc44eb468e164ee3798f3.png" title=" User enters 'HYD' into place_order_form_city_input_field (completed)" width="1366"/>
+                <img src="a127091bbcec75bf1517ef7fa289eca33f21626b413dc44eb468e164ee3798f3.png" title=" User should see place_order_form_year_input_field that is displayed" width="1366"/>
+                <img src="a127091bbcec75bf1517ef7fa289eca33f21626b413dc44eb468e164ee3798f3.png" title=" User should see place_order_form_year_input_field that is displayed (completed)" width="1366"/>
+                <img src="a127091bbcec75bf1517ef7fa289eca33f21626b413dc44eb468e164ee3798f3.png" title=" User enters '1234 5867 3645 2675' into place_order_form_year_input_field" width="1366"/>
+                <img src="a48e5016a98d3f1b3abad0152a218c366fefc503b3e2dce1934b40388735e2d4.png" title=" User enters '1234 5867 3645 2675' into place_order_form_year_input_field (completed)" width="1366"/>
+                <img src="a48e5016a98d3f1b3abad0152a218c366fefc503b3e2dce1934b40388735e2d4.png" title=" User should see place_order_form_month_input_field that is displayed" width="1366"/>
+                <img src="86d0be3eda0de8bfe636b4b59b05a42557b72d1ed0b71861ed4f8acf5201ce95.png" title=" User should see place_order_form_month_input_field that is displayed (completed)" width="1366"/>
+                <img src="86d0be3eda0de8bfe636b4b59b05a42557b72d1ed0b71861ed4f8acf5201ce95.png" title=" User enters 'OCT' into place_order_form_month_input_field" width="1366"/>
+                <img src="3b686c6b4073f9c1723503c81e72974e9a8cace71e59c586f48c2fa77316d510.png" title=" User enters 'OCT' into place_order_form_month_input_field (completed)" width="1366"/>
+                <img src="3b686c6b4073f9c1723503c81e72974e9a8cace71e59c586f48c2fa77316d510.png" title=" User should see place_order_form_creditcard_input_field that is displayed" width="1366"/>
+                <img src="3b686c6b4073f9c1723503c81e72974e9a8cace71e59c586f48c2fa77316d510.png" title=" User should see place_order_form_creditcard_input_field that is displayed (completed)" width="1366"/>
+                <img src="3b686c6b4073f9c1723503c81e72974e9a8cace71e59c586f48c2fa77316d510.png" title=" User enters '2023' into place_order_form_creditcard_input_field" width="1366"/>
+                <img src="5abd7a0063f525f60357c2cc666b6baf27f660724e03ce1a813528449969c70f.png" title=" User enters '2023' into place_order_form_creditcard_input_field (completed)" width="1366"/>
+                <img src="5abd7a0063f525f60357c2cc666b6baf27f660724e03ce1a813528449969c70f.png" title=" User should see place_order_form_click_on_purchase_button that is displayed" width="1366"/>
+                <img src="5abd7a0063f525f60357c2cc666b6baf27f660724e03ce1a813528449969c70f.png" title=" User should see place_order_form_click_on_purchase_button that is displayed (completed)" width="1366"/>
+                <img src="5abd7a0063f525f60357c2cc666b6baf27f660724e03ce1a813528449969c70f.png" title=" User clicks on place_order_form_click_on_purchase_button" width="1366"/>
+                <img src="6bf09dd3313672dd5683994d1fe228560721ddb90805421d9b290c1826ed3d64.png" title=" User clicks on place_order_form_click_on_purchase_button (completed)" width="1366"/>
+                <img src="6bf09dd3313672dd5683994d1fe228560721ddb90805421d9b290c1826ed3d64.png" title=" User serenitytask (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.81</span>
+</div>
+</body>
+</html>
