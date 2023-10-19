@@ -1,5 +1,7 @@
 package testcases;
 
+import java.util.Random;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -29,34 +31,40 @@ import net.thucydides.junit.annotations.TestData;
 import net.thucydides.junit.annotations.UseTestDataFrom;
 import task.serenitytask;
 
-@RunWith(SerenityRunner.class)
-@Concurrent(threads = "4")
-@UseTestDataFrom(value = "D:\\eclipse\\carswaley\\src\\test\\resources\\testdata\\data.csv")
+@RunWith(SerenityParameterizedRunner.class)
+//@Concurrent(threads = "4")
+@UseTestDataFrom(value = "D:\\eclipse\\serenity\\src\\test\\resources\\testdata\\data.csv")
 @Narrative(text = { "welcome to google" })
-public class SerenityTestCase extends PageObject {
-
-	
+public class SerenityTestCase {
+	public String username;
+	public String password;
 
 	@Managed
-	public WebDriver driver;
+	 WebDriver driver;
 	serenitytask task;
+
 	private static Actor user = Actor.named("User");
+	@TestData(columnNames = "Username,Password")
 	
-
+	//@Autowired
+	@Qualifier
+    public String qualifier(){return " - " + " Username = " + username + " and " + " Password = " + password + " should display " ;}
 	
-	
-
-	@Title("actor login to the demo blaze application in screenplay")
-	@Test
-	public <T extends Actor> void demoBlazeApplicatrion()   {
-		open();
-		task.demoblaunch();
-		task.performAs(user);
-		
-
-		
+	@Before
+	public void demoblaunch() {
+		user.can(BrowseTheWeb.with(driver));
+		user.attemptsTo(Open.url("https://www.demoblaze.com/"));
 	}
 
-	
+	@Test
+	public void dbLogin() {
+		Random objGenerator = new Random();
+		int randomNumber = objGenerator.nextInt(1000);
+		String RegisteredUerName = username+randomNumber+"@gmail.com";
+		//open();
+		user.attemptsTo(task.credentials(username, password));
+		
+		
+	}
 
 }

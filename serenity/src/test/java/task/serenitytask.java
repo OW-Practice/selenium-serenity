@@ -1,9 +1,12 @@
 package task;
 
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import net.serenitybdd.core.steps.Instrumented;
 import net.serenitybdd.screenplay.Actor;
+import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.serenitybdd.screenplay.actions.Click;
@@ -13,76 +16,51 @@ import net.serenitybdd.screenplay.ensure.Ensure;
 import net.serenitybdd.screenplay.targets.Target;
 import net.thucydides.core.annotations.Managed;
 
-public class serenitytask implements Task  {
+public class serenitytask implements Task {
 	private final String username;
 	private final String password;
-	
-	//public credentials(String username, String password) {
-		//this.username=username;
-	//	this.password=password;
-	//}
-	
+
+	// public credentials(String username, String password) {
+	// this.username=username;
+	// this.password=password;
+	// }
+
 	public serenitytask(String username, String password) {
-        this.username = username;
-        this.password = password;
+		this.username = username;
+		this.password = password;
 	}
-	
-	@Managed
-	public WebDriver driver;
-	Actor actor = new Actor("DemoBlaze");
+
+	// Actor actor = new Actor("DemoBlaze");
 	screenplaylocaters locaters;
 
-	public <T extends Actor> void demoblaunch() {
-		actor.can(BrowseTheWeb.with(driver));
-		actor.attemptsTo(Open.url("https://www.demoblaze.com/"));
-	}
-
-	@Override
+	@Test
 	public <T extends Actor> void performAs(T actor) {
+
+		// actor.attemptsTo(Click.on(locaters.buttonSignUp));
+
+		// actor.attemptsTo(Ensure.that(locaters.brand_Logo).isDisplayed());
+
+		// actor.attemptsTo(Click.on(locaters.signup_Button));
+
+		// actor.wasAbleTo(Enter.theValue(username).into(locaters.field_Username));
+
+		// actor.wasAbleTo(Enter.theValue(password).into(locaters.field_Password));
+
+		// actor.attemptsTo(Click.on(locaters.button_SignUp));
 
 		actor.attemptsTo(Click.on(locaters.CLICK_ON_HOMEPAGE_LOGIN_BUTTON));
 
 		actor.wasAbleTo(Enter.theValue(username).into(locaters.USER_NAME_INPUT_FIELD));
 
 		actor.wasAbleTo(Enter.theValue(password).into(locaters.PASSWORD_INPUT_FIELD));
-		try {
-			Thread.sleep(1000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 
 		actor.attemptsTo(Click.on(locaters.LOGIN_BUTTON_AFTER_ENTERING_CREDENTIALS));
-		try {
-			Thread.sleep(1000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 
 		actor.attemptsTo(Ensure.that(locaters.CLICK_HOME_SECTION_ON_FOOTER).isDisplayed());
-		try {
-			Thread.sleep(1000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 
 		actor.attemptsTo(Click.on(locaters.CLICK_HOME_SECTION_ON_FOOTER));
-		try {
-			Thread.sleep(1000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 
 		System.out.println("Home section which is in footer clicked");
-		try {
-			Thread.sleep(1000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 
 		actor.attemptsTo(Ensure.that(locaters.CLICK_ON_LAPTOPS_SECTION).isDisplayed());
 
@@ -158,9 +136,14 @@ public class serenitytask implements Task  {
 
 		// driver.navigate().refresh();
 
-		actor.attemptsTo(Click.on(locaters.CLICK_ON_LOGOUT));
+		// actor.attemptsTo(Click.on(locaters.CLICK_ON_LOGOUT));
 
-		System.out.println("actor logout from demoblaze application");
+		// System.out.println("actor logout from demoblaze application");
+
+	}
+
+	public static Performable credentials(String username, String password) {
+		return Instrumented.instanceOf(serenitytask.class).withProperties(username, password);
 
 	}
 
