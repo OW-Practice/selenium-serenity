@@ -1,0 +1,10 @@
+pages\UserLoginPage.class
+steps\LaunchBlaze.class
+baseclass\BasePage.class
+pages\LaunchURL.class
+pages\NewUserRegistration.class
+pages\CompletePlaceOrder.class
+locaters\DemoBlazeLocaters.class
+steps\AddToCard.class
+steps\ConfirmOrder.class
+pages\PlaceOrder.class
