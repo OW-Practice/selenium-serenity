@@ -6,6 +6,7 @@ import net.serenitybdd.screenplay.Interaction;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
+import net.serenitybdd.screenplay.ensure.Ensure;
 
 public class PatientLogin  implements Interaction{
 	
@@ -25,11 +26,12 @@ public class PatientLogin  implements Interaction{
 	public <T extends Actor> void performAs(T actor) {
 		
 	actor.attemptsTo(
-			
+			Ensure.that(CommonLocaters.fldUsername).isDisplayed(),
 			Enter.theValue(username).into(CommonLocaters.fldUsername),
+			Ensure.that(CommonLocaters.fldPassword).isDisplayed(),
 			Enter.theValue(password).into(CommonLocaters.fldPassword),
-			Click.on(CommonLocaters.btnLogin) 
-			
+			Ensure.that(CommonLocaters.btnLogin).isDisplayed(),
+			Click.on(CommonLocaters.btnLogin)
 			);
 		
 	}

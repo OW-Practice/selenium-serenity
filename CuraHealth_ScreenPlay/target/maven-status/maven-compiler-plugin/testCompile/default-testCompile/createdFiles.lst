@@ -1,5 +1,8 @@
 screenplaypages\PatientLogin.class
+screenplaytestcase\MakeAppointmentTestSuite.class
+screenplaytestcase\PatientDriveToLoginScreen.class
 screenplayactions\LoginaActions.class
 commonlocaters\CommonLocaters.class
-screenplaytestcase\PatientDriveToLoginScreen.class
+screenplayactions\BookAppointmentActions.class
+screenplaypages\BookAppointment.class
 screenplaytasks\UserLogin.class

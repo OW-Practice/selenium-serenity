@@ -6,6 +6,7 @@ import net.serenitybdd.screenplay.targets.Target;
 
 public class CommonLocaters {
 	
+	public static By lftHamberg=By.cssSelector("[class=\"btn btn-dark btn-lg toggle\"]");
 	public static final By fldUsername=By.cssSelector("[placeholder=\"Username\"]:nth-child(1)");
 	public static By fldPassword=By.cssSelector("[type=\"password\"]:nth-child(1)");
 	public static By btnLogin=By.xpath("//button[@id='btn-login']");
@@ -15,6 +16,7 @@ public class CommonLocaters {
 	public static By dropdownValue=By.cssSelector("[value=\"Tokyo CURA Healthcare Center\"]");
 	public static By readmissionCheckbox=By.xpath("//input[@name=\"hospital_readmission\"]");
 	public static By selectDateField=By.cssSelector("[name=\"visit_date\"]");
+	public static By pickDate=By.xpath("//*[@class=\"datepicker-days\"]//td[text()='31']");
 	public static By textComment=By.cssSelector("[name=\"comment\"]");
 	public static By btnBookAppointment=By.xpath("//button[@id=\"btn-book-appointment\"]");
 	public static By appointmentConfirmation=By.xpath("//*[text()='Appointment Confirmation']");
