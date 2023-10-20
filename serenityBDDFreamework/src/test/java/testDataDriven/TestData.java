@@ -1,9 +1,9 @@
 package testDataDriven;
 
 public class TestData {
-public static String username = "akhil.thokala@emlen.io";
+public static String username = "valeria.studenets+stripetest5@emlen.io";
 public static String finlinkUsername= "jhansi+admadv@finlink.de";
-public static String password= "qa1@emlen";
+public static String password= "Qwerty12@";
 public static String finlinkPassword= "12345678";
 public static String name= "akhil";
 public static String street= "rj road01";

@@ -19,15 +19,20 @@ import org.openqa.selenium.remote.CapabilityType;
 
 import com.openhtmltopdf.css.parser.property.PrimitivePropertyBuilders.Display;
 
+import Questions.LoginQuestions;
 import ScreenplayActions.LoginAction;
+import ScreenplayPages.LoginWithCredentials;
 //import ScreenplayTask.LoginTask;
 //import tasks.LoginTask;
+
 @RunWith(SerenityRunner.class)
 public class ScreenplayLoginTest extends PageObject {
 	@Managed(driver="chrome")
     WebDriver driver;
 	//LoginTask task;
 	LoginAction logaction;
+	LoginWithCredentials lp;
+	LoginQuestions LQ;
     private static Actor user = Actor.named("User");
     
     @Before
@@ -50,7 +55,13 @@ public class ScreenplayLoginTest extends PageObject {
     public void userCanLogin() {
         user.attemptsTo(logaction.withCredentials("jhansi+admadv@finlink.de", "12345678"));
 
+
         // Add assertions or verifications here to validate the successful login
     }
+    @Test
+    public void loginWithInvalidCreds() {
+    	user.attemptsTo(lp.invalidCreds("vikas+advisor1@finlink.de", "12345678"));
+    }
+    
 } 
 

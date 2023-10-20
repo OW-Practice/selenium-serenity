@@ -12,6 +12,7 @@ import Locators.LoginPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;
 import net.serenitybdd.screenplay.Performable;
+import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.ensure.Ensure;
@@ -61,4 +62,16 @@ public class LoginWithCredentials implements Interaction {
     			
     			);
     }
+    
+    public static Performable invalidCreds(String username, String password) {
+    	return Task.where("{0} logs in with invalid credentials",
+    			Ensure.that(LoginPage.finlinkUsername).isDisplayed(),
+    			Enter.theValue(username).into(LoginPage.finlinkUsername),
+    			Enter.theValue(password).into(LoginPage.finlinkPassword),
+    			Click.on(LoginPage.loginButton),
+    			Ensure.that(LoginPage.errorMessage).isDisplayed()
+    			);
     }
+    
+    }
+    
