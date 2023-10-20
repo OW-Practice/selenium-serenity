@@ -1,0 +1,254 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="febf16cab89a6c584f4a7c0079b75ee415cfa7c4bb2ddb7f49d3d271e15ea8ce.html">Main Test</a></span>
+                > <span class="truncate-60"><a
+                    href="9ec16d2beb84914f05ec3e7d320a00d76f5d51c4e948ad30b668b6d1367e021c.html">User login in successfully </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 20-10-2023 12:03</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Main Test</span>
+                                    <span class="badge tag-badge" style="">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">User login in successfully
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="5d3e23ace8ff86ed36815fc8dbd5dc1b925fa03d32761c4d3370821291605c7a.png" title=" harika opens the https://www.demoblaze.com/" width="1366"/>
+                <img src="5d3e23ace8ff86ed36815fc8dbd5dc1b925fa03d32761c4d3370821291605c7a.png" title=" Harika login task1 test" width="1366"/>
+                <img src="5d3e23ace8ff86ed36815fc8dbd5dc1b925fa03d32761c4d3370821291605c7a.png" title=" harika opens the https://www.demoblaze.com/" width="1366"/>
+                <img src="240bf74036d6fc8c52bca74657aa0b8a72703a2d1f4459f7f86f4f70324ac5aa.png" title=" harika clicks on homepageLoginButton" width="1366"/>
+                <img src="240bf74036d6fc8c52bca74657aa0b8a72703a2d1f4459f7f86f4f70324ac5aa.png" title=" harika clicks on homepageLoginButton (completed)" width="1366"/>
+                <img src="240bf74036d6fc8c52bca74657aa0b8a72703a2d1f4459f7f86f4f70324ac5aa.png" title=" harika enters 'harika3090@gmail.com' into userNameInputField" width="1366"/>
+                <img src="396e08483fa861c3491cfa1f0df48694df3cfa8a2507401029745a0c411bdd8d.png" title=" harika enters 'harika3090@gmail.com' into userNameInputField" width="1366"/>
+                <img src="6752e21ebbda8019c736ed15154458ef8bdbf1e03581826417eb88164483b45b.png" title=" harika enters 'harika3090@gmail.com' into userNameInputField (completed)" width="1366"/>
+                <img src="6752e21ebbda8019c736ed15154458ef8bdbf1e03581826417eb88164483b45b.png" title=" harika enters 'harika3010' into passwordInputField" width="1366"/>
+                <img src="3b42b60f56ecc3285b2b70f9b3be709b57e3bb8f5a5068678d4ff54742e2a9db.png" title=" harika enters 'harika3010' into passwordInputField" width="1366"/>
+                <img src="3b42b60f56ecc3285b2b70f9b3be709b57e3bb8f5a5068678d4ff54742e2a9db.png" title=" harika enters 'harika3010' into passwordInputField (completed)" width="1366"/>
+                <img src="3b42b60f56ecc3285b2b70f9b3be709b57e3bb8f5a5068678d4ff54742e2a9db.png" title=" harika clicks on loginButtonAfterEnteringCredentials" width="1366"/>
+                <img src="68cf2342343895415fadd9f03b8ce74e87c304c768563468e81f23fd3588445c.png" title=" harika clicks on loginButtonAfterEnteringCredentials" width="1366"/>
+                <img src="68cf2342343895415fadd9f03b8ce74e87c304c768563468e81f23fd3588445c.png" title=" harika clicks on loginButtonAfterEnteringCredentials (completed)" width="1366"/>
+                <img src="ea124e5fcd4022e662dfac05a3641b424cc7c746deaaae8a5ae4b649771e3674.png" title=" Harika login task1 test (completed)" width="1366"/>
+                <img src="a6a3e6656197e8ac3726cf521cf61d51b1c3d2af62ce86a710efc8d98d4053f2.png" title=" Harika addto cart task2 test" width="1366"/>
+                <img src="a6a3e6656197e8ac3726cf521cf61d51b1c3d2af62ce86a710efc8d98d4053f2.png" title=" harika clicks on clickHomeSectionOnFooter" width="1366"/>
+                <img src="a6a3e6656197e8ac3726cf521cf61d51b1c3d2af62ce86a710efc8d98d4053f2.png" title=" harika clicks on clickHomeSectionOnFooter (completed)" width="1366"/>
+                <img src="a6a3e6656197e8ac3726cf521cf61d51b1c3d2af62ce86a710efc8d98d4053f2.png" title=" harika clicks on clickonlaptopsSection" width="1366"/>
+                <img src="a6a3e6656197e8ac3726cf521cf61d51b1c3d2af62ce86a710efc8d98d4053f2.png" title=" harika clicks on clickonlaptopsSection (completed)" width="1366"/>
+                <img src="a6a3e6656197e8ac3726cf521cf61d51b1c3d2af62ce86a710efc8d98d4053f2.png" title=" harika clicks on click_on_selected_laptop_name" width="1366"/>
+                <img src="240b10a099742f91e3cfba501b19945a8762adb6516a15d332516d4f2efd40fe.png" title=" harika clicks on click_on_selected_laptop_name" width="1366"/>
+                <img src="240b10a099742f91e3cfba501b19945a8762adb6516a15d332516d4f2efd40fe.png" title=" harika clicks on click_on_selected_laptop_name (completed)" width="1366"/>
+                <img src="240b10a099742f91e3cfba501b19945a8762adb6516a15d332516d4f2efd40fe.png" title=" harika clicks on click_add_to_cart_on_selected_laptop" width="1366"/>
+                <img src="ccbf69219e46f57b09694591c318536c306201ced38fe838ad8e608fbfaec461.png" title=" harika clicks on click_add_to_cart_on_selected_laptop" width="1366"/>
+                <img src="ccbf69219e46f57b09694591c318536c306201ced38fe838ad8e608fbfaec461.png" title=" harika clicks on click_add_to_cart_on_selected_laptop (completed)" width="1366"/>
+                <img src="3d1d93eacdedfef48d034bd9b8805d7f434366e802f6a0ac9fdaf975c824f552.png" title=" Harika addto cart task2 test (completed)" width="1366"/>
+                <img src="308dc400e519634217b2e7f1d5e74e2c18f6fe59ce6fe861d29fee07ef8d51dd.png" title=" Harika placing order task3 test" width="1366"/>
+                <img src="308dc400e519634217b2e7f1d5e74e2c18f6fe59ce6fe861d29fee07ef8d51dd.png" title=" harika clicks on click_on_cart_section_on_footer" width="1366"/>
+                <img src="308dc400e519634217b2e7f1d5e74e2c18f6fe59ce6fe861d29fee07ef8d51dd.png" title=" harika clicks on click_on_cart_section_on_footer (completed)" width="1366"/>
+                <img src="308dc400e519634217b2e7f1d5e74e2c18f6fe59ce6fe861d29fee07ef8d51dd.png" title=" harika clicks on click_on_place_order" width="1366"/>
+                <img src="eb9b04a65213f8ae01241776d4c429208cc4c9a04066f4425412cb7570c6ae36.png" title=" harika clicks on click_on_place_order" width="1366"/>
+                <img src="eb9b04a65213f8ae01241776d4c429208cc4c9a04066f4425412cb7570c6ae36.png" title=" harika clicks on click_on_place_order (completed)" width="1366"/>
+                <img src="eb9b04a65213f8ae01241776d4c429208cc4c9a04066f4425412cb7570c6ae36.png" title=" harika enters 'hari' into place_order_form_name_input_field" width="1366"/>
+                <img src="201092cdde85d36f0d85ceb72c00b6fb91f673782ca4ca21969988b93e039361.png" title=" harika enters 'hari' into place_order_form_name_input_field" width="1366"/>
+                <img src="201092cdde85d36f0d85ceb72c00b6fb91f673782ca4ca21969988b93e039361.png" title=" harika enters 'hari' into place_order_form_name_input_field (completed)" width="1366"/>
+                <img src="201092cdde85d36f0d85ceb72c00b6fb91f673782ca4ca21969988b93e039361.png" title=" harika enters 'INDIA' into place_order_form_country_input_field" width="1366"/>
+                <img src="fc318f660739a8211ad0f2c0332e354718cee82b3347ad5995611dfa3c2a391b.png" title=" harika enters 'INDIA' into place_order_form_country_input_field" width="1366"/>
+                <img src="fc318f660739a8211ad0f2c0332e354718cee82b3347ad5995611dfa3c2a391b.png" title=" harika enters 'INDIA' into place_order_form_country_input_field (completed)" width="1366"/>
+                <img src="fc318f660739a8211ad0f2c0332e354718cee82b3347ad5995611dfa3c2a391b.png" title=" harika enters 'HYD' into place_order_form_city_input_field" width="1366"/>
+                <img src="9c410f32e7d6e36f6d4d92ac426fe8419fb58f8e1aecdb5639e4264499f158b1.png" title=" harika enters 'HYD' into place_order_form_city_input_field" width="1366"/>
+                <img src="9c410f32e7d6e36f6d4d92ac426fe8419fb58f8e1aecdb5639e4264499f158b1.png" title=" harika enters 'HYD' into place_order_form_city_input_field (completed)" width="1366"/>
+                <img src="9c410f32e7d6e36f6d4d92ac426fe8419fb58f8e1aecdb5639e4264499f158b1.png" title=" harika enters '1248 3476 3875 3486' into place_order_form_year_input_field" width="1366"/>
+                <img src="001f842b6350e5de4c2e5b7eef5933f1807daf7eb2e3064f4cddfb9fa65b326e.png" title=" harika enters '1248 3476 3875 3486' into place_order_form_year_input_field" width="1366"/>
+                <img src="001f842b6350e5de4c2e5b7eef5933f1807daf7eb2e3064f4cddfb9fa65b326e.png" title=" harika enters '1248 3476 3875 3486' into place_order_form_year_input_field (completed)" width="1366"/>
+                <img src="001f842b6350e5de4c2e5b7eef5933f1807daf7eb2e3064f4cddfb9fa65b326e.png" title=" harika enters 'OCT' into place_order_form_month_input_field" width="1366"/>
+                <img src="8a893aea321bbd6417c7d79dfcd47b47362d86946774dec7c7cb3c3c673da989.png" title=" harika enters 'OCT' into place_order_form_month_input_field" width="1366"/>
+                <img src="8a893aea321bbd6417c7d79dfcd47b47362d86946774dec7c7cb3c3c673da989.png" title=" harika enters 'OCT' into place_order_form_month_input_field (completed)" width="1366"/>
+                <img src="8a893aea321bbd6417c7d79dfcd47b47362d86946774dec7c7cb3c3c673da989.png" title=" harika enters '2486' into place_order_form_creditcard_input_field" width="1366"/>
+                <img src="9fc6a2e4555856f2c833807bace6412cd1befce7053e3fd0b14718ec9c4c8d61.png" title=" harika enters '2486' into place_order_form_creditcard_input_field" width="1366"/>
+                <img src="9fc6a2e4555856f2c833807bace6412cd1befce7053e3fd0b14718ec9c4c8d61.png" title=" harika enters '2486' into place_order_form_creditcard_input_field (completed)" width="1366"/>
+                <img src="9fc6a2e4555856f2c833807bace6412cd1befce7053e3fd0b14718ec9c4c8d61.png" title=" harika clicks on place_order_form_click_on_purchase_button" width="1366"/>
+                <img src="a46ebb01a427f05524863270e5128ab5eb1147cd2aacf2233775ea25e4e85ac4.png" title=" harika clicks on place_order_form_click_on_purchase_button" width="1366"/>
+                <img src="a46ebb01a427f05524863270e5128ab5eb1147cd2aacf2233775ea25e4e85ac4.png" title=" harika clicks on place_order_form_click_on_purchase_button (completed)" width="1366"/>
+                <img src="a46ebb01a427f05524863270e5128ab5eb1147cd2aacf2233775ea25e4e85ac4.png" title=" Harika placing order task3 test (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.81</span>
+</div>
+</body>
+</html>

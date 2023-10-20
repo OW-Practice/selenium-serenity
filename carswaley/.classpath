@@ -36,5 +36,15 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/.m2/repository/net/serenity-bdd/serenity-ensure/3.5.1/serenity-ensure-3.5.1.jar" sourcepath="C:/Users/LENOVO/.m2/repository/net/serenity-bdd/serenity-ensure/3.5.1/serenity-ensure-3.5.1-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.groupId" value="net.serenity-bdd"/>
+			<attribute name="maven.artifactId" value="serenity-ensure"/>
+			<attribute name="maven.version" value="3.5.1"/>
+			<attribute name="maven.scope" value="test"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

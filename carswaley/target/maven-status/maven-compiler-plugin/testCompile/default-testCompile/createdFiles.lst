@@ -1,6 +1,4 @@
-testcases\DemoBlaze_flow.class
-testcases\PurchaseOrder.class
-testcases\DemoBlaze_Registration.class
-testcases\LoginTestCase.class
-RandomString\java\RandomCredentials.class
-smoke_suite\SmokeTestSuite.class
+RandomString\java\DemoBlazeLogin.class
+RandomString\java\DemoBlazeLocators.class
+RandomString\java\AddingPhoneProductToCart.class
+RandomString\java\Utilities.class
