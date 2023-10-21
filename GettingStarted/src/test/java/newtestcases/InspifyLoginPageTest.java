@@ -36,7 +36,7 @@ public class InspifyLoginPageTest {
 
 	@Title("Login to inspify")
 	@Before
-	public void doLogin() {
+	public void doLogin() throws InterruptedException {
 		username = testDataLoader.getUsername();
 		password = testDataLoader.getPassword();
 
@@ -57,9 +57,8 @@ public class InspifyLoginPageTest {
 	@Title("Logout from inspify")
 	@Test
 	// @Pending
-	public void doLogut() {
+	public void doLogut() throws InterruptedException {
 		inspify.logout();
-
 	}
 
 	@Title("Verify logout")

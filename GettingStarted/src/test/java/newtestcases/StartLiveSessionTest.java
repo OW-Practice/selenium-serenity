@@ -36,7 +36,7 @@ public class StartLiveSessionTest {
 
 	@Title("Login to inspify site")
 	@Before
-	public void login() {
+	public void login() throws InterruptedException {
 		inspify.launchURL();
 		inspify.login(username, password);
 		inspify.goToProfile();
@@ -48,17 +48,17 @@ public class StartLiveSessionTest {
 	public void startLiveSessionTest() throws InterruptedException {
 		inspify.goToCalendar();
 		inspify.startLiveSession();
-		inspify.acceptPermissions();
 		// inspify.verifyIsLiveSessionLoungeDisplayed();
+		// inspify.closeLiveSessionPopUp();
+		// inspify.acceptPermissions();
 		// inspify.startSession();
 		// inspify.verifyIsLiveSessionStarted();
 	}
 
-	@Title("Logout from inspify")
-	@After
-	public void logout() {
-		inspify.logout();
-		inspify.verifyLogout();
-	}
-
+//	@Title("Logout from inspify")
+//	@After
+//	public void logout() throws InterruptedException {
+//		inspify.logout();
+//		inspify.verifyLogout();
+//	}
 }

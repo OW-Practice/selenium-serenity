@@ -1,3 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Inspify login page test","Login to inspify","SUCCESS","2023-10-09T15:16:41.859+05:30[Asia/Calcutta]","0.0","20.67"
-"Inspify login page test","Logout from inspify","SUCCESS","2023-10-09T15:17:04.742+05:30[Asia/Calcutta]","0.0","37.41"
+"Inspify login page test","Verify login","ERROR","2023-10-20T15:10:48.005+05:30[Asia/Calcutta]","0.0","42.87"
+"Inspify login page test","Logout from inspify","SUCCESS","2023-10-20T15:11:31.869+05:30[Asia/Calcutta]","0.0","24.19"

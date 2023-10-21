@@ -4,11 +4,13 @@ D:\Projects\Automation\Serenity\GettingStarted\src\test\java\pages\LoginPage.jav
 D:\Projects\Automation\Serenity\GettingStarted\src\test\java\utilities\SerenityTestDataLoader.java
 D:\Projects\Automation\Serenity\GettingStarted\src\test\java\base\BasePage.java
 D:\Projects\Automation\Serenity\GettingStarted\src\test\java\newtestcases\StartLiveSessionTest.java
+D:\Projects\Automation\Serenity\GettingStarted\src\test\java\pages\ScreenPlayPage.java
 D:\Projects\Automation\Serenity\GettingStarted\src\test\java\pages\InspifyPage.java
 D:\Projects\Automation\Serenity\GettingStarted\src\test\java\webelements\HandlingActionEvents.java
 D:\Projects\Automation\Serenity\GettingStarted\src\test\java\steps\InspifySteps.java
 D:\Projects\Automation\Serenity\GettingStarted\src\test\java\utilities\TestDataLoader.java
 D:\Projects\Automation\Serenity\GettingStarted\src\test\java\newtestcases\InspifyLoginPageTest.java
+D:\Projects\Automation\Serenity\GettingStarted\src\test\java\newtestcases\CreateStorybook.java
 D:\Projects\Automation\Serenity\GettingStarted\src\test\java\utilities\TestDataSingleton.java
 D:\Projects\Automation\Serenity\GettingStarted\src\test\java\testcases\InspifyLoginTest.java
 D:\Projects\Automation\Serenity\GettingStarted\src\test\java\testcases\InspifyPrcaticeTest.java

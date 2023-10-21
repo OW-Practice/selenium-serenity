@@ -1,0 +1,15 @@
+utilities\TestContext.class
+tasks\ClickOnSingleInputForm.class
+utilities\TestDataSingleton.class
+utilities\TestDataLoader.class
+targetlocators\SeleniumEasyPageLocators.class
+consequences\VerifyMessageText.class
+consequences\VerifySum.class
+questions\SumOfTwoNumbers.class
+tasks\CaptureAlertText.class
+tasks\CalculateTwoInts.class
+utilities\SerenityTestDataLoader$TestDataLoader.class
+newtestcases\ScreenPlay.class
+newtestcases\ScreenPlayPOM.class
+questions\MessageText.class
+utilities\SerenityTestDataLoader.class

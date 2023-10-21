@@ -26,7 +26,7 @@ public class InspifyLoginTest {
 	@Title("Login to Inspify")
 	@Test
 	
-	public void login() {
+	public void login() throws InterruptedException {
 		inspify.launchURL();
 		inspify.login(username, password);
 	}

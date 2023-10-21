@@ -42,9 +42,12 @@ public class InspifyPage extends BasePage {
 	String Scene = "xpath=//div[contains(@class, 'actions')]";
 	String SBTitleText = "css=.title strong";
 	String SBSubTitleText = "css=.subtitle";
+	String closeLiveSsnPopUp = "css=.title-close .popup-close";
 
 	public void goToProfile() {
+		elementPresence(Menu);
 		click(Menu);
+		elementPresence(ProfileMenu);
 		click(ProfileMenu);
 	}
 
@@ -52,8 +55,10 @@ public class InspifyPage extends BasePage {
 		elementPresence(AvatarSymbol);
 	}
 
-	public void logout() {
+	public void logout() throws InterruptedException {
+		Thread.sleep(5000);
 		click(Menu);
+		scrollDown();
 		click(LogoutMenu);
 	}
 
@@ -63,19 +68,31 @@ public class InspifyPage extends BasePage {
 	}
 
 	public void startLiveSession() throws InterruptedException {
-
 		click(StartLiveSessionButton1);
 		Thread.sleep(5000);
 		elementPresence(PopupTitle);
 		Thread.sleep(5000);
+		scrollDown();
 		click(StartLiveSessionButton2);
 		Thread.sleep(5000);
 	}
 
 	public void verifyIsLiveSessionLoungeDisplayed() throws InterruptedException {
+		java.util.Set<String> windowHandles = getDriver().getWindowHandles();
+		String sideWindowHandle = windowHandles.stream().filter(handle -> !handle.equals(getDriver().getWindowHandle()))
+				.findFirst().orElseThrow(() -> new RuntimeException("Side window not found"));
+		getDriver().switchTo().window(sideWindowHandle);
 		elementPresence(Logo);
 		elementPresence(HostMessage);
 		elementPresence(LoungeVideo);
+	}
+
+	public void closeLiveSessionPopUp() {
+		java.util.Set<String> windowHandles = getDriver().getWindowHandles();
+		String sideWindowHandle = windowHandles.stream().filter(handle -> !handle.equals(getDriver().getWindowHandle()))
+				.findFirst().orElseThrow(() -> new RuntimeException("Side window not found"));
+		getDriver().switchTo().window(sideWindowHandle);
+		click(closeLiveSsnPopUp);
 	}
 
 	public void startSession() {
