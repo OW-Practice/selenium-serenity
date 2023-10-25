@@ -1,3 +1,6 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Adding phone product to cart","In Demoblaze application adding PHONE product to CART","ERROR","2023-10-11T14:40:33.946+05:30[Asia/Calcutta]","0.0","0.25"
-"Adding phone product to cart","In Demoblaze application operations which are performed after adding PHONE to cart","ERROR","2023-10-11T14:40:34.516+05:30[Asia/Calcutta]","0.0","0.0"
+"Adding phone product to cart","Demoblaze Login operations","ERROR","2023-10-11T14:44:11.986+05:30[Asia/Calcutta]","0.0","0.0"
+"Adding phone product to cart","In Demoblaze application LOGOUT operations","ERROR","2023-10-11T14:44:21.522+05:30[Asia/Calcutta]","0.0","0.0"
+"Adding phone product to cart","In Demoblaze application adding PHONE product to CART","ERROR","2023-10-11T16:31:58.592+05:30[Asia/Calcutta]","0.0","0.67"
+"Adding phone product to cart","In Demoblaze application operations which are performed after adding PHONE to cart","ERROR","2023-10-11T16:32:09.388+05:30[Asia/Calcutta]","0.0","0.25"
+"Login demoblaze","login into Demoblaze application with valid credentials ","ERROR","2023-10-11T16:33:28.254+05:30[Asia/Calcutta]","0.0","6.35"
