@@ -86,7 +86,7 @@ public class BasePage extends PageObject {
 
 		waitFor(getElement(locator)).sendKeys(value);
 	}
-	
+
 	public void click(String locator) {
 
 		waitFor(getElement(locator)).click();
@@ -104,9 +104,7 @@ public class BasePage extends PageObject {
 	}
 
 	public void elementPresence(String locator) {
-
 		waitFor(getElement(locator)).shouldBePresent();
-
 	}
 
 	public void fileUpload(String locator, String filepath) {
@@ -114,19 +112,31 @@ public class BasePage extends PageObject {
 		File fileToUpload = new File(filepath);
 		fileInput.sendKeys(fileToUpload.getAbsolutePath());
 	}
-	
+
 	public void hoverOnElement(String locator) {
 		Actions actions = new Actions(getDriver());
 		actions.moveToElement(getElement(locator)).perform();
 	}
-	
+
 	public String getElementText(String locator) {
 		String text = waitFor(getElement(locator)).getText();
 		return text;
 	}
 
-    public void scrollDown() {
-        JavascriptExecutor js = (JavascriptExecutor) getDriver();
-        js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
-    }
+	public void scrollDown() {
+		JavascriptExecutor js = (JavascriptExecutor) getDriver();
+		js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
+	}
+
+	public boolean getAttributeContainsText(String locator, String attribute, String text) {
+		String attributeValue = waitFor(getElement(locator)).getAttribute(attribute);
+		System.out.println(attributeValue);
+		boolean elementText = attributeValue != null && attributeValue.contains(text);
+		System.out.println(elementText);
+		return elementText;
+	}
+
+	public void verifyElementContainsText(String locator, String expectedText) {
+		waitFor(getElement(locator)).shouldContainText(expectedText);
+	}
 }
