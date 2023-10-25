@@ -1,10 +1,10 @@
 pages\NewUserRegistrations.class
 pages\OrderPlace.class
+steps\AddToCard.class
 baseclass\BasePage.class
 pages\FinishPlaceOrder.class
 pages\LaunchURL.class
 steps\LuanchBlaze.class
 locaters\DashBoardLocaters.class
-steps\AddToCard.class
 steps\ConfirmOrder.class
 pages\UserLogin.class
