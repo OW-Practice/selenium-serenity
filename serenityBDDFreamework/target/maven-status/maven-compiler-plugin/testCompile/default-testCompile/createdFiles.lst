@@ -1,4 +1,5 @@
 Locators\LoginPage.class
+Questions\LoginQuestions.class
 Locators\Segment.class
 pages\DashboardPage.class
 pages\CreateCompanyPage.class

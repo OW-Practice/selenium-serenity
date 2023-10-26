@@ -8,8 +8,8 @@ import net.serenitybdd.screenplay.actions.Enter;
 //import pages.LoginPage;
 
 public class LoginAction {
-    public static Interaction withCredentials(String username, String password) {
+  /*  public static Interaction withCredentials(String username, String password) {
        // return Tasks.instrumented(LoginActionWithCredentials.class, username, password);
     	return Tasks.instrumented(LoginWithCredentials.class, username, password);
-    }
+    }*/
 }

@@ -56,13 +56,13 @@ public class CompaniesCreationTestSuite extends PageObject {
 		login.clickProceedButton();
 		login.verifyPasswordFiledDisplayed();
 		login.enterPassword(data.password);
-		login.clickonSubmitButton();
-		//dashboard.verifyDashboardPageDisplayed();
-		//dashboard.verifyPeopleDropdownDisplayed(); */
+		login.clickonSubmitButton();*/
+		dashboard.verifyDashboardPageDisplayed();
+		dashboard.verifyPeopleDropdownDisplayed();
 		dashboard.clickPeopleDropdown();
 		dashboard.selectCompaniesOption();
 		companies.clickAddnewButton();
-		//companies.verifyCreateCompaniesPopupDisplayed();
+		companies.verifyCreateCompaniesPopupDisplayed();
 		companies.enterDetailsinCreateCompanyPopup(data.name,data.street,data.streeetNumber,data.city,data.state,data.postCode);
 		companies.clickSaveButton();
 		/*logout.clickOnProfile();

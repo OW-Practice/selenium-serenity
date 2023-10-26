@@ -22,46 +22,49 @@ import com.openhtmltopdf.css.parser.property.PrimitivePropertyBuilders.Display;
 import Questions.LoginQuestions;
 import ScreenplayActions.LoginAction;
 import ScreenplayPages.LoginWithCredentials;
-//import ScreenplayTask.LoginTask;
-//import tasks.LoginTask;
 
 @RunWith(SerenityRunner.class)
 public class ScreenplayLoginTest extends PageObject {
-	@Managed(driver="chrome")
-    WebDriver driver;
-	//LoginTask task;
+	@Managed(driver = "chrome")
+	WebDriver driver;
+	// LoginTask task;
 	LoginAction logaction;
 	LoginWithCredentials lp;
 	LoginQuestions LQ;
-    private static Actor user = Actor.named("User");
-    
-    @Before
-    public void set_up_actor() {
-    	String name = "1542";
-       //user.can(BrowseTheWeb.with(driver).setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true));
-    	 user.can(BrowseTheWeb.with(driver));
-    	 //open();
-    	 user.attemptsTo(Open.url("https://admin.finlink-staging.de/login"));
-    	 user.attemptsTo(
-    			 //Ensure.that(name).isEqualToIgnoringCase("1542").into("[src='./assets/finlink-logo.svg']")
-    			 
-    			 );
-    	 
-    }
+	private static Actor user = Actor.named("User");
 
+	@Before
+	public void set_up_actor() {
 
+		user.can(BrowseTheWeb.with(driver));
+		open();
 
-    @Test
-    public void userCanLogin() {
-        user.attemptsTo(logaction.withCredentials("jhansi+admadv@finlink.de", "12345678"));
+	}
 
+	@Test
+	public void boardCreation() {
+		user.attemptsTo(lp.clickOnLoginLink());
+		//user.attemptsTo(lp.invalidCreds("vikas+advisor1@finlink.de", "12345678"));
+		user.attemptsTo(lp.enterUsername("narasimha.gadwala@optimworks.com"));
+		user.attemptsTo(lp.clickOnContinueBtn());
+		//user.attemptsTo(lp.clickOnNextButton());
+		user.attemptsTo(lp.enterPassword("Nani@1998"));
+		user.attemptsTo(lp.clickLoginBtn());
+		//user.attemptsTo(lp.selectTrelloOption());
+		user.attemptsTo(lp.clickOnCreateMenu());
+		user.attemptsTo(lp.selectCreateBoard());
+		user.attemptsTo(lp.enterBoardTitle("optimworks"));
+		user.attemptsTo(lp.clickCreateButton());
+		user.attemptsTo(lp.enterListTitle("opt1"));
+		user.attemptsTo(lp.clickOnaddListButton());
+		user.attemptsTo(lp.enterListTitle("opt2"));
+		user.attemptsTo(lp.clickOnaddListButton());
+		user.attemptsTo(lp.enterListTitle("opt3"));
+		user.attemptsTo(lp.clickOnaddListButton());
+		
+		user.attemptsTo(
+				withAction().dragAndDrop("[]name=","[fd=name]").perform()
+				);
+	}
 
-        // Add assertions or verifications here to validate the successful login
-    }
-    @Test
-    public void loginWithInvalidCreds() {
-    	user.attemptsTo(lp.invalidCreds("vikas+advisor1@finlink.de", "12345678"));
-    }
-    
-} 
-
+}
