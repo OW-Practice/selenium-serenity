@@ -134,8 +134,8 @@
 				<version>2.22.1</version>
 				<configuration>
 					<includes>
-						<include>**/newtestcases/**/*.java</include>
-						<include>**/newtestcases/*.java</include>
+						<include>**/com.urbuddi.testcases/**/*.java</include>
+						<include>**/com.urbuddi.testcases/*.java</include>
 					</includes>
 					<!--parallel>classes</parallel>
 					<threadCount>2</threadCount>

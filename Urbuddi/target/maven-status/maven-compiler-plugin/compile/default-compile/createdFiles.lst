@@ -1,0 +1,4 @@
+com\urbuddi\base\BasePage.class
+com\urbuddi\pages\LoginPage.class
+com\urbuddi\utilities\TestDataLoader.class
+com\urbuddi\steps\UrbuddiSteps.class
