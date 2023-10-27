@@ -1,36 +1,37 @@
-D:\narasimhaserenity\serenityBDDFreamework\selenium-serenity\serenityBDDFreamework\src\test\java\Locators\ContactsPage.java
-D:\narasimhaserenity\serenityBDDFreamework\selenium-serenity\serenityBDDFreamework\src\test\java\Steps\CreateContact.java
-D:\narasimhaserenity\serenityBDDFreamework\selenium-serenity\serenityBDDFreamework\src\test\java\Locators\DashboardLocators.java
-D:\narasimhaserenity\serenityBDDFreamework\selenium-serenity\serenityBDDFreamework\src\test\java\testCase\LoginWithPomTestSuite.java
-D:\narasimhaserenity\serenityBDDFreamework\selenium-serenity\serenityBDDFreamework\src\test\java\testCase\LoginTestSuite.java
-D:\narasimhaserenity\serenityBDDFreamework\selenium-serenity\serenityBDDFreamework\src\test\java\pages\Login.java
-D:\narasimhaserenity\serenityBDDFreamework\selenium-serenity\serenityBDDFreamework\src\test\java\testCase\SmokeTestSuite.java
-D:\narasimhaserenity\serenityBDDFreamework\selenium-serenity\serenityBDDFreamework\src\test\java\pages\DashboardPage.java
-D:\narasimhaserenity\serenityBDDFreamework\selenium-serenity\serenityBDDFreamework\src\test\java\pages\CreateContactPage.java
-D:\narasimhaserenity\serenityBDDFreamework\selenium-serenity\serenityBDDFreamework\src\test\java\ScreenplayActions\LoginActionWithCredentials.java
-D:\narasimhaserenity\serenityBDDFreamework\selenium-serenity\serenityBDDFreamework\src\test\java\testCase\ScreenplayLoginTest.java
-D:\narasimhaserenity\serenityBDDFreamework\selenium-serenity\serenityBDDFreamework\src\test\java\pages\CreateSegmentPage.java
-D:\narasimhaserenity\serenityBDDFreamework\selenium-serenity\serenityBDDFreamework\src\test\java\testDataDriven\TestData.java
-D:\narasimhaserenity\serenityBDDFreamework\selenium-serenity\serenityBDDFreamework\src\test\java\ScreenplayTask\LoginTask.java
-D:\narasimhaserenity\serenityBDDFreamework\selenium-serenity\serenityBDDFreamework\src\test\java\testCase\LoginWithExcelTestSuite.java
-D:\narasimhaserenity\serenityBDDFreamework\selenium-serenity\serenityBDDFreamework\src\test\java\testCase\OpenURL.java
-D:\narasimhaserenity\serenityBDDFreamework\selenium-serenity\serenityBDDFreamework\src\test\java\ScreenplayPages\LoginWithCredentials.java
-D:\narasimhaserenity\serenityBDDFreamework\selenium-serenity\serenityBDDFreamework\src\test\java\Steps\LogoutTest.java
-D:\narasimhaserenity\serenityBDDFreamework\selenium-serenity\serenityBDDFreamework\src\test\java\utilities\ExcelReader.java
-D:\narasimhaserenity\serenityBDDFreamework\selenium-serenity\serenityBDDFreamework\src\test\java\testCase\LogoutTestSuite.java
-D:\narasimhaserenity\serenityBDDFreamework\selenium-serenity\serenityBDDFreamework\src\test\java\pages\LogoutPage.java
-D:\narasimhaserenity\serenityBDDFreamework\selenium-serenity\serenityBDDFreamework\src\test\java\ScreenplayActions\LoginAction.java
-D:\narasimhaserenity\serenityBDDFreamework\selenium-serenity\serenityBDDFreamework\src\test\java\testCase\DataDrivenWithCsvTestSuite.java
-D:\narasimhaserenity\serenityBDDFreamework\selenium-serenity\serenityBDDFreamework\src\test\java\Locators\Segment.java
-D:\narasimhaserenity\serenityBDDFreamework\selenium-serenity\serenityBDDFreamework\src\test\java\testCase\SegmentCreation.java
-D:\narasimhaserenity\serenityBDDFreamework\selenium-serenity\serenityBDDFreamework\src\test\java\Locators\LoginPage.java
-D:\narasimhaserenity\serenityBDDFreamework\selenium-serenity\serenityBDDFreamework\src\test\java\pages\CreateCompanyPage.java
-D:\narasimhaserenity\serenityBDDFreamework\selenium-serenity\serenityBDDFreamework\src\test\java\Steps\CreateCompany.java
-D:\narasimhaserenity\serenityBDDFreamework\selenium-serenity\serenityBDDFreamework\src\test\java\pages\ScreenLoc.java
-D:\narasimhaserenity\serenityBDDFreamework\selenium-serenity\serenityBDDFreamework\src\test\java\testCase\ScreenTestSuite.java
-D:\narasimhaserenity\serenityBDDFreamework\selenium-serenity\serenityBDDFreamework\src\test\java\Locators\Companies.java
-D:\narasimhaserenity\serenityBDDFreamework\selenium-serenity\serenityBDDFreamework\src\test\java\Steps\LoginPageSteps.java
-D:\narasimhaserenity\serenityBDDFreamework\selenium-serenity\serenityBDDFreamework\src\test\java\testCase\CreatingContactTestSuite.java
-D:\narasimhaserenity\serenityBDDFreamework\selenium-serenity\serenityBDDFreamework\src\test\java\Steps\CreateSegments.java
-D:\narasimhaserenity\serenityBDDFreamework\selenium-serenity\serenityBDDFreamework\src\test\java\testCase\CompaniesCreationTestSuite.java
-D:\narasimhaserenity\serenityBDDFreamework\selenium-serenity\serenityBDDFreamework\src\test\java\Steps\Dashboard.java
+D:\New folder\selenium-serenity\serenityBDDFreamework\src\test\java\Steps\Dashboard.java
+D:\New folder\selenium-serenity\serenityBDDFreamework\src\test\java\testCase\ScreenTestSuite.java
+D:\New folder\selenium-serenity\serenityBDDFreamework\src\test\java\pages\LogoutPage.java
+D:\New folder\selenium-serenity\serenityBDDFreamework\src\test\java\testCase\CompaniesCreationTestSuite.java
+D:\New folder\selenium-serenity\serenityBDDFreamework\src\test\java\testCase\SegmentCreation.java
+D:\New folder\selenium-serenity\serenityBDDFreamework\src\test\java\Steps\CreateSegments.java
+D:\New folder\selenium-serenity\serenityBDDFreamework\src\test\java\testCase\LoginTestSuite.java
+D:\New folder\selenium-serenity\serenityBDDFreamework\src\test\java\Locators\Segment.java
+D:\New folder\selenium-serenity\serenityBDDFreamework\src\test\java\Steps\LogoutTest.java
+D:\New folder\selenium-serenity\serenityBDDFreamework\src\test\java\Steps\CreateContact.java
+D:\New folder\selenium-serenity\serenityBDDFreamework\src\test\java\testCase\LogoutTestSuite.java
+D:\New folder\selenium-serenity\serenityBDDFreamework\src\test\java\Steps\CreateCompany.java
+D:\New folder\selenium-serenity\serenityBDDFreamework\src\test\java\testDataDriven\TestData.java
+D:\New folder\selenium-serenity\serenityBDDFreamework\src\test\java\testCase\ScreenplayLoginTest.java
+D:\New folder\selenium-serenity\serenityBDDFreamework\src\test\java\ScreenplayActions\LoginActionWithCredentials.java
+D:\New folder\selenium-serenity\serenityBDDFreamework\src\test\java\pages\DashboardPage.java
+D:\New folder\selenium-serenity\serenityBDDFreamework\src\test\java\Steps\LoginPageSteps.java
+D:\New folder\selenium-serenity\serenityBDDFreamework\src\test\java\pages\Login.java
+D:\New folder\selenium-serenity\serenityBDDFreamework\src\test\java\pages\CreateContactPage.java
+D:\New folder\selenium-serenity\serenityBDDFreamework\src\test\java\testCase\OpenURL.java
+D:\New folder\selenium-serenity\serenityBDDFreamework\src\test\java\Questions\LoginQuestions.java
+D:\New folder\selenium-serenity\serenityBDDFreamework\src\test\java\Locators\LoginPage.java
+D:\New folder\selenium-serenity\serenityBDDFreamework\src\test\java\pages\CreateSegmentPage.java
+D:\New folder\selenium-serenity\serenityBDDFreamework\src\test\java\utilities\ExcelReader.java
+D:\New folder\selenium-serenity\serenityBDDFreamework\src\test\java\testCase\CreatingContactTestSuite.java
+D:\New folder\selenium-serenity\serenityBDDFreamework\src\test\java\testCase\LoginWithPomTestSuite.java
+D:\New folder\selenium-serenity\serenityBDDFreamework\src\test\java\Locators\ContactsPage.java
+D:\New folder\selenium-serenity\serenityBDDFreamework\src\test\java\ScreenplayActions\LoginAction.java
+D:\New folder\selenium-serenity\serenityBDDFreamework\src\test\java\Locators\DashboardLocators.java
+D:\New folder\selenium-serenity\serenityBDDFreamework\src\test\java\ScreenplayTask\LoginTask.java
+D:\New folder\selenium-serenity\serenityBDDFreamework\src\test\java\Locators\Companies.java
+D:\New folder\selenium-serenity\serenityBDDFreamework\src\test\java\testCase\SmokeTestSuite.java
+D:\New folder\selenium-serenity\serenityBDDFreamework\src\test\java\testCase\LoginWithExcelTestSuite.java
+D:\New folder\selenium-serenity\serenityBDDFreamework\src\test\java\pages\ScreenLoc.java
+D:\New folder\selenium-serenity\serenityBDDFreamework\src\test\java\testCase\DataDrivenWithCsvTestSuite.java
+D:\New folder\selenium-serenity\serenityBDDFreamework\src\test\java\pages\CreateCompanyPage.java
+D:\New folder\selenium-serenity\serenityBDDFreamework\src\test\java\ScreenplayPages\LoginWithCredentials.java
