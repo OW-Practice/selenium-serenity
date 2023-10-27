@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Book appointment","Patient appointment Booking ","SUCCESS","2023-10-20T15:16:24.879+05:30[Asia/Calcutta]","0.0","16.41"
+"Patient login","Patient adding his credentials","SUCCESS","2023-10-20T15:16:41.192+05:30[Asia/Calcutta]","0.0","12.92"
+"Patient loginscreeplay","User book appointment","SUCCESS","2023-10-20T15:16:41.271+05:30[Asia/Calcutta]","0.0","10.76"
+"Profile screen","User navigate to profile page ","SUCCESS","2023-10-20T15:17:14.391+05:30[Asia/Calcutta]","0.0","20.01"
+"Verify the history","User navigate to History screen","SUCCESS","2023-10-20T15:17:34.455+05:30[Asia/Calcutta]","0.0","19.03"
