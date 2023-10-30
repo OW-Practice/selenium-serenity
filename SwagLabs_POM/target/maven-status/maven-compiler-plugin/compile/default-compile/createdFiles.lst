@@ -1,0 +1,7 @@
+steps\VerifyLoginPage.class
+locaters\LoginPageLocaters.class
+baseclass\BasePage.class
+pages\CustomDriverProvider.class
+pages\VerifyLoginScreen.class
+pages\AddUsername.class
+steps\EnterUserCredentails.class
