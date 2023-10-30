@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="CuraHealthSerenity.StepsCHTest" skipped="0" tests="1" time="15.93" timestamp="2023-10-30 09:04:12"><testcase classname="CuraHealthSerenity.StepsCHTest" name="Inbetween"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
+CuraHealthSerenity.BookAppointment2Test.PatientAppointmentBook(BookAppointment2Test.java:28)&#13;
+CuraHealthSerenity.StepCHTest.CuraHealthCareBookApptOperations(StepCHTest.java:34)&#13;
+CuraHealthSerenity.StepsCHTest.inbetween(StepsCHTest.java:32)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+</system-err></testcase></testsuite>
