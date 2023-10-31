@@ -12,23 +12,23 @@ public class VerifyLoginScreen extends PageObject{
 		
 		WebElementFacade header=$(log.swagHeader);
 		header.isCurrentlyVisible();
-		System.out.println(header+"is deplayed" );
+		System.out.println(header.getText()+"is deplayed" );
 		
 	}
 	public void verifyUsername() {
 		WebElementFacade username=$(log.userNameField);
 		username.isDisplayed();
-		System.out.println(username + "is displayed");
+		System.out.println(username.getText() + "is displayed");
 	}
 	public void verifyPassword() {
 		WebElementFacade password=$(log.passwordField);
 		password.isDisplayed();
-		System.out.println(password + "is displayed");
+		System.out.println(password.getText() + "is displayed");
 	}
 	public void verifyLoginButton() {
 		WebElementFacade loginButton=$(log.buttonLogin);
 		loginButton.isDisplayed();
-		System.out.println(loginButton + "is displayed");
+		System.out.println(loginButton.getText() + "is displayed");
 	}
 }
 
