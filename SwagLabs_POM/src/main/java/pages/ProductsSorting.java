@@ -27,7 +27,7 @@ public class ProductsSorting extends PageObject{
 		assertNotEquals(lowest, highest);
 		if (lowest!=highest) {
 			
-			$(pol.addBikeLight).click();
+			System.out.println("lowest price amount not matching with highest value");
 			
 		}
 		
@@ -35,6 +35,10 @@ public class ProductsSorting extends PageObject{
 	public void addRedTshirt() {
 		WebElementFacade redShirt=$(pol.addRedTshirt);
 		redShirt.click();
+	}
+	public void addLight() {
+		WebElementFacade light =$(pol.addBikeLight);
+		light.waitUntilClickable().click();
 	}
 
 }

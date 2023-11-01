@@ -1,3 +1,4 @@
+
 package testcases;
 
 import org.junit.Before;
@@ -8,6 +9,7 @@ import org.openqa.selenium.WebDriver;
 
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.junit.runners.SerenityParameterizedRunner;
+import net.serenitybdd.screenplay.ensure.Ensure;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Narrative;
 import net.thucydides.core.annotations.Pending;
@@ -21,45 +23,52 @@ import steps.EnterUserCredentails;
 import steps.VerifyLoginPage;
 
 @RunWith(SerenityParameterizedRunner.class)
-@UseTestDataFrom(value="src/test/resources/testdata/data.csv")
-@Narrative(text= {"In order to ensure login page from Swag lab application",
-		"Here am testing the login functionality with valid credentails"
-})
 
-public class CustomerLogin extends PageObject{
+@UseTestDataFrom(value = "src/test/resources/testdata/data.csv")
 
-	@Managed(driver="chrome")
+@Narrative(text = { "In order to ensure login page from Swag lab application",
+		"Here am testing the login functionality with valid credentails" })
+
+public class CustomerLogin extends PageObject {
+
+	@Managed(driver = "chrome")
 	WebDriver driver;
-	
+
 	private String username;
 	private String password;
-	
+
 	@Steps
 	EnterUserCredentails user;
 	VerifyLoginPage page;
-	
-	@TestData(columnNames ="Username , Password")
+
+	@TestData(columnNames = "Username , Password")
+
 	@Qualifier
 	public String qualifier() {
-	
-		 return " - " + " Username = " + username + " and " + " Password = " + password +  " should display ";
+
+		return " - " + " Username = " + username + " and " + " Password = " + password + " should display ";
 	}
+
 	@Before
+
 	@Title("verify the login page")
 	public void verifyLoginPage() {
 		open();
 		page.validateLoginScreen();
-	    page.validateUsername();
+		page.validateUsername();
 		page.validatePassword();
 		page.validateLoginButton();
 	}
+
 	@WithTag("userlogin into application with valid credentails")
+
 	@Title("Customer Login into application")
+
 	@Test
 	public void customerLogin() {
 		user.enterUsername(username);
 		user.enterPassword(password);
 		user.clickOnLogin();
 	}
-	
+
 }
