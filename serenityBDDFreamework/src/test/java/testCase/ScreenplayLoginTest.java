@@ -1,5 +1,6 @@
 package testCase;
 
+import net.serenitybdd.core.annotations.findby.By;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.serenitybdd.screenplay.Actor;
@@ -15,6 +16,8 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.CapabilityType;
 
 import com.openhtmltopdf.css.parser.property.PrimitivePropertyBuilders.Display;
@@ -31,6 +34,8 @@ public class ScreenplayLoginTest extends PageObject {
 	LoginAction logaction;
 	LoginWithCredentials lp;
 	LoginQuestions LQ;
+	//WebElement sourceElement1 = driver.findElement(By.cssSelector("[id='board']>li:nth-child(1)"));
+	//WebElement targetElement2 = driver.findElement(By.cssSelector("[id='board']>li:nth-child(1)"));
 	private static Actor user = Actor.named("User");
 
 	@Before
@@ -61,10 +66,10 @@ public class ScreenplayLoginTest extends PageObject {
 		user.attemptsTo(lp.clickOnaddListButton());
 		user.attemptsTo(lp.enterListTitle("opt3"));
 		user.attemptsTo(lp.clickOnaddListButton());
-		
-		user.attemptsTo(
-				withAction().dragAndDrop("[]name=","[fd=name]").perform()
-				);
+		//user.should(seeThat());
+		//Actions user1 = new Actions(driver);
+	    //user.dragAndDrop(sourceElement1, targetElement2).build().perform();;
+	    //
 	}
 
 }
