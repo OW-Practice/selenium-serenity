@@ -1,0 +1,11 @@
+steps\VerifyLoginPage.class
+locaters\LoginPageLocaters.class
+pages\ProductsSorting.class
+baseclass\BasePage.class
+steps\ItemAddToCart.class
+pages\VerifyLoginScreen.class
+pages\AddUsername.class
+pages\ProductAddToCart.class
+steps\EnterUserCredentails.class
+locaters\ProductsLocaters.class
+steps\SortingTheProducts.class
