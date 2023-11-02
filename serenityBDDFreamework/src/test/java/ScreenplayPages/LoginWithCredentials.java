@@ -148,11 +148,10 @@ public class LoginWithCredentials extends PageObject {
 		);
 	}
 	
-
-	public static void dr() {
-		Actions actions = new Actions(driver);
-		actions.dragAndDrop(LoginPage.addList, LoginPage.boardTitleField);
+	public static void dragAndDrop() {
+		
 	}
+	
 	
 }
 
