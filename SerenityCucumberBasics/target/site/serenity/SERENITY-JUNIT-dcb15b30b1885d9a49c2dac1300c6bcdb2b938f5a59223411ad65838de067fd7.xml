@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="OrangeHRM login" skipped="0" tests="1" time="23.35" timestamp="2023-11-02 07:43:14"><testcase name="User Login to OrangeHRM"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+Pages.HomePageTest.loginCred(HomePageTest.java:19)&#13;
+step.PIMCreationTest.userEntersCredentials(PIMCreationTest.java:21)&#13;
+cucumberSteps.LoginTestSteps.user_entered_username_and_password_into_respective_fields(LoginTestSteps.java:35)&#13;
+✽.user entered Admin and admin123 into respective fields(src/test/resources/features/OrangeHRM.feature:6)&#13;
+</system-err></testcase></testsuite>

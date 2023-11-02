@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: OrangeHRM login
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 26.938 s <<< FAILURE! - in OrangeHRM login
+User Login to OrangeHRM(OrangeHRM login)  Time elapsed: 26.938 s  <<< ERROR!
+java.lang.NullPointerException
+

@@ -1,0 +1,4 @@
+base\BasePage.class
+base\Locators.class
+Pages\HomePage.class
+step\PIMCreation.class
