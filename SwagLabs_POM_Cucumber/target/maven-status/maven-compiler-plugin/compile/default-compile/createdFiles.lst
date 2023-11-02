@@ -1,0 +1,16 @@
+pages\CartCheckout.class
+locaters\CartLocaters.class
+pages\AddShippingDetails.class
+pages\VerifyTheConfirmationPage.class
+pages\VerifyLoginScreen.class
+pages\ProductAddToCart.class
+steps\CartcheckoutSteps.class
+steps\VerifyLoginPage.class
+locaters\LoginPageLocaters.class
+pages\ProductsSorting.class
+baseclass\BasePage.class
+steps\ItemAddToCart.class
+pages\AddUsername.class
+steps\EnterUserCredentails.class
+locaters\ProductsLocaters.class
+steps\SortingTheProducts.class
