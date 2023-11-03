@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: runner.RunCucumber
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.022 s <<< FAILURE! - in runner.RunCucumber
+initializationError(runner.RunCucumber)  Time elapsed: 0.008 s  <<< ERROR!
+java.lang.NoClassDefFoundError: net/thucydides/model/ThucydidesSystemProperty
+Caused by: java.lang.ClassNotFoundException: net.thucydides.model.ThucydidesSystemProperty
+
