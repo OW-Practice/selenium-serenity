@@ -47,7 +47,13 @@ public void buyer_click_on_login_button() {
 public void buyer_navigate_to_Product_Screen() {
     item.verifyProductPage();
 }
-
+@And("^Buyer Add Bag to Cart$")
+public void buyer_Add_Bag_to_Cart() {
+	item.verifyBackBagDetails();
+	item.addBackToCart();
+	item.userNavigateToHomeScreen();
+   
+}
 
 
 }
