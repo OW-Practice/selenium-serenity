@@ -14,15 +14,15 @@ public class Login extends PageObject{
 		
 	
 	
-	public void enterUsername() {
+	public void enterUsername(String username) {
 		
-		$(log.username).sendKeys();
+		$(log.username).sendKeys(username);
 		
 		
 	}
 	
 	public void enterPassword() {
-		$(log.password).sendKeys();
+		$(log.password).sendKeys("ThisIsNotAPassword");
 	}
 	
 	public void clickonLoginButton() {

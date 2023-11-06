@@ -8,6 +8,11 @@ import pages.MakeAppointment;
 
 public class MakeAppointmentSteps {
 	MakeAppointment makeappiontment;
+	
+	public void verifyTheAppointPageDisplayed() {
+		makeappiontment.verifyTheAppointPageDisplayed();
+	}
+	
 	public void clickOnFacilityDropdown() {
 		makeappiontment.clickOnFacilityDropdown();
 	}

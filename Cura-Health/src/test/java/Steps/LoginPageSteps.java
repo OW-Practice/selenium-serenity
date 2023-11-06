@@ -20,8 +20,8 @@ public class LoginPageSteps extends PageObject {
 	
 	
 	@Step
-	public void enterUsername(){
-		loginPage.enterUsername();
+	public void enterUsername(String username){
+		loginPage.enterUsername(username);
 	}
 	
 	

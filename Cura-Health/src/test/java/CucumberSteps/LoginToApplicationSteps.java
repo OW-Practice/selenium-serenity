@@ -2,35 +2,32 @@ package CucumberSteps;
 
 
 
-import Locators.LoginPage;
 import Steps.LoginPageSteps;
+import cucumber.api.java.Before;
 import cucumber.api.java.en.And;
-import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import net.serenitybdd.core.pages.PageObject;
-import net.serenitybdd.screenplay.actions.Open;
 import net.thucydides.core.annotations.Steps;
-import pages.Login;
 
 public class LoginToApplicationSteps extends PageObject{
 	@Steps
 	LoginPageSteps log;
 	
-	@Given("^user is on home page$")
+	@Before
 	public void user_is_on_home_page() {
 		log.openApplication();
 		//System.out.println("@Given -- user navigate to the website");
 	}
 	
-	@When("^user enter admin as username$")
-	public void user_enter_admin_as_username() {
+	@When("^user enter (.*) username$")
+	public void user_enter_admin_as_username(String username) {
 		
-		log.enterUsername();
+		log.enterUsername(username);
 	  //  System.out.println("@When -- user verify the title");
 	}
 
-	@Then("^user enter asdf as password$")
+	@Then("^user enter (.*) password$")
 	public void user_enter_asdf_as_password() {
 		
 		log.enterPassword();
