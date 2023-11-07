@@ -1,0 +1,12 @@
+steps\PatientNavigateToHistory.class
+steps\SlotBooking.class
+baseclass\BasePage.class
+pages\VerifyUserNavigation.class
+steps\PatientProfileUpdate.class
+steps\CustomerLogin.class
+pages\HistoryPage.class
+pages\UserProfileUpdate.class
+locaters\LandingScreen.class
+steps\VerifyingTheDashboard.class
+pages\MakeAppointment.class
+pages\UserLogin.class

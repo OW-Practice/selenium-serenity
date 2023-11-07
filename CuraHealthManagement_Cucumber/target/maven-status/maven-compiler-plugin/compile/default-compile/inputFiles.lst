@@ -1,0 +1,12 @@
+D:\rohithqa\CuraHealthManagement_Cucumber\src\main\java\baseclass\BasePage.java
+D:\rohithqa\CuraHealthManagement_Cucumber\src\main\java\pages\HistoryPage.java
+D:\rohithqa\CuraHealthManagement_Cucumber\src\main\java\pages\UserLogin.java
+D:\rohithqa\CuraHealthManagement_Cucumber\src\main\java\pages\UserProfileUpdate.java
+D:\rohithqa\CuraHealthManagement_Cucumber\src\main\java\locaters\LandingScreen.java
+D:\rohithqa\CuraHealthManagement_Cucumber\src\main\java\steps\PatientNavigateToHistory.java
+D:\rohithqa\CuraHealthManagement_Cucumber\src\main\java\steps\SlotBooking.java
+D:\rohithqa\CuraHealthManagement_Cucumber\src\main\java\pages\MakeAppointment.java
+D:\rohithqa\CuraHealthManagement_Cucumber\src\main\java\pages\VerifyUserNavigation.java
+D:\rohithqa\CuraHealthManagement_Cucumber\src\main\java\steps\VerifyingTheDashboard.java
+D:\rohithqa\CuraHealthManagement_Cucumber\src\main\java\steps\CustomerLogin.java
+D:\rohithqa\CuraHealthManagement_Cucumber\src\main\java\steps\PatientProfileUpdate.java

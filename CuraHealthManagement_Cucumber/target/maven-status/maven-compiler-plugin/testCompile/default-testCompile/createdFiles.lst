@@ -1,0 +1,4 @@
+runner\PatientNavigateToHome.class
+cucumberSteps\PatientBookAppointment.class
+runner\PatientBookAvailableSlot.class
+cucumberSteps\PatientLoginSteps.class
